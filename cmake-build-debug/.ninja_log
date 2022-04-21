@@ -1,0 +1,10 @@
+# ninja log v5
+2	246	6724820667690719	build.ninja	1fa93c3ac5427101
+2	288	6722232423301867	CMakeFiles/Answersfor_luogu.dir/cpp/main.cpp.obj	feb372a4a04ef1ec
+290	378	6722232424168509	Answersfor_luogu.exe	8a861f62b4cc2d21
+2	450	6724824943637303	CMakeFiles/Answersfor_luogu.dir/cpp/main.cpp.obj	feb372a4a04ef1ec
+451	598	6724824944951650	Answersfor_luogu.exe	8a861f62b4cc2d21
+3	1263	6724929340513470	CMakeFiles/Answersfor_luogu.dir/cpp/main.cpp.obj	feb372a4a04ef1ec
+1264	1521	6724929342939511	Answersfor_luogu.exe	8a861f62b4cc2d21
+3	318	6724929647165017	CMakeFiles/Answersfor_luogu.dir/cpp/main.cpp.obj	feb372a4a04ef1ec
+319	406	6724929647896851	Answersfor_luogu.exe	8a861f62b4cc2d21
