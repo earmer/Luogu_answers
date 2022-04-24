@@ -3,4 +3,4 @@ project(Answersfor_luogu)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Answersfor_luogu cpp/main.cpp)
+add_executable(Answersfor_luogu main.cpp)
