@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/101/CLionProjects/Answersfor-luogu
+# Install script for directory: C:/Users/Work/CLionProjects/Luogu_answers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
