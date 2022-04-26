@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-d
 
 build cmake_object_order_depends_target_Answersfor_luogu: phony || CMakeFiles/Answersfor_luogu.dir
 
-build CMakeFiles/Answersfor_luogu.dir/cpp/main.cpp.obj: CXX_COMPILER__Answersfor_luogu_Debug C$:/Users/101/CLionProjects/Answersfor-luogu/cpp/main.cpp || cmake_object_order_depends_target_Answersfor_luogu
-  DEP_FILE = CMakeFiles\Answersfor_luogu.dir\cpp\main.cpp.obj.d
+build CMakeFiles/Answersfor_luogu.dir/main.cpp.obj: CXX_COMPILER__Answersfor_luogu_Debug C$:/Users/101/CLionProjects/Answersfor-luogu/main.cpp || cmake_object_order_depends_target_Answersfor_luogu
+  DEP_FILE = CMakeFiles\Answersfor_luogu.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles\Answersfor_luogu.dir
-  OBJECT_FILE_DIR = CMakeFiles\Answersfor_luogu.dir\cpp
+  OBJECT_FILE_DIR = CMakeFiles\Answersfor_luogu.dir
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/Answersfor_luogu.dir/cpp/main.cpp.obj: CXX_COMPILER__Answersfor
 #############################################
 # Link the executable Answersfor_luogu.exe
 
-build Answersfor_luogu.exe: CXX_EXECUTABLE_LINKER__Answersfor_luogu_Debug CMakeFiles/Answersfor_luogu.dir/cpp/main.cpp.obj
+build Answersfor_luogu.exe: CXX_EXECUTABLE_LINKER__Answersfor_luogu_Debug CMakeFiles/Answersfor_luogu.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Answersfor_luogu.dir
@@ -72,6 +72,111 @@ build Answersfor_luogu.exe: CXX_EXECUTABLE_LINKER__Answersfor_luogu_Debug CMakeF
   TARGET_FILE = Answersfor_luogu.exe
   TARGET_IMPLIB = libAnswersfor_luogu.dll.a
   TARGET_PDB = Answersfor_luogu.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T235196-Pai
+
+
+#############################################
+# Order-only phony target for T235196-Pai
+
+build cmake_object_order_depends_target_T235196-Pai: phony || CMakeFiles/T235196-Pai.dir
+
+build CMakeFiles/T235196-Pai.dir/cpp/T235196-Pai.cpp.obj: CXX_COMPILER__T235196-Pai_Debug C$:/Users/101/CLionProjects/Answersfor-luogu/cpp/T235196-Pai.cpp || cmake_object_order_depends_target_T235196-Pai
+  DEP_FILE = CMakeFiles\T235196-Pai.dir\cpp\T235196-Pai.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\T235196-Pai.dir
+  OBJECT_FILE_DIR = CMakeFiles\T235196-Pai.dir\cpp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T235196-Pai
+
+
+#############################################
+# Link the executable T235196-Pai.exe
+
+build T235196-Pai.exe: CXX_EXECUTABLE_LINKER__T235196-Pai_Debug CMakeFiles/T235196-Pai.dir/cpp/T235196-Pai.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T235196-Pai.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T235196-Pai.exe
+  TARGET_IMPLIB = libT235196-Pai.dll.a
+  TARGET_PDB = T235196-Pai.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T235196
+
+
+#############################################
+# Order-only phony target for T235196
+
+build cmake_object_order_depends_target_T235196: phony || CMakeFiles/T235196.dir
+
+build CMakeFiles/T235196.dir/cpp/T235196.cpp.obj: CXX_COMPILER__T235196_Debug C$:/Users/101/CLionProjects/Answersfor-luogu/cpp/T235196.cpp || cmake_object_order_depends_target_T235196
+  DEP_FILE = CMakeFiles\T235196.dir\cpp\T235196.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\T235196.dir
+  OBJECT_FILE_DIR = CMakeFiles\T235196.dir\cpp
+
+build CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj: CXX_COMPILER__T235196_Debug C$:/Users/101/CLionProjects/Answersfor-luogu/cpp/T235196-Con.cpp || cmake_object_order_depends_target_T235196
+  DEP_FILE = CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\T235196.dir
+  OBJECT_FILE_DIR = CMakeFiles\T235196.dir\cpp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T235196
+
+
+#############################################
+# Link the executable T235196.exe
+
+build T235196.exe: CXX_EXECUTABLE_LINKER__T235196_Debug CMakeFiles/T235196.dir/cpp/T235196.cpp.obj CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T235196.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T235196.exe
+  TARGET_IMPLIB = libT235196.dll.a
+  TARGET_PDB = T235196.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P1010
+
+
+#############################################
+# Order-only phony target for P1010
+
+build cmake_object_order_depends_target_P1010: phony || CMakeFiles/P1010.dir
+
+build CMakeFiles/P1010.dir/cpp/P1010.cpp.obj: CXX_COMPILER__P1010_Debug C$:/Users/101/CLionProjects/Answersfor-luogu/cpp/P1010.cpp || cmake_object_order_depends_target_P1010
+  DEP_FILE = CMakeFiles\P1010.dir\cpp\P1010.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\P1010.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1010.dir\cpp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1010
+
+
+#############################################
+# Link the executable P1010.exe
+
+build P1010.exe: CXX_EXECUTABLE_LINKER__P1010_Debug CMakeFiles/P1010.dir/cpp/P1010.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P1010.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P1010.exe
+  TARGET_IMPLIB = libP1010.dll.a
+  TARGET_PDB = P1010.exe.dbg
 
 
 #############################################
@@ -101,6 +206,12 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Answersfor_luogu: phony Answersfor_luogu.exe
 
+build P1010: phony P1010.exe
+
+build T235196: phony T235196.exe
+
+build T235196-Pai: phony T235196-Pai.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +220,7 @@ build Answersfor_luogu: phony Answersfor_luogu.exe
 #############################################
 # Folder: C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug
 
-build all: phony Answersfor_luogu.exe
+build all: phony Answersfor_luogu.exe T235196-Pai.exe T235196.exe P1010.exe
 
 # =============================================================================
 # Built-in targets

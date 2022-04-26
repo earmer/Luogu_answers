@@ -1,3 +1,6 @@
 C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug/CMakeFiles/Answersfor_luogu.dir
+C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug/CMakeFiles/T235196-Pai.dir
+C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug/CMakeFiles/T235196.dir
+C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug/CMakeFiles/P1010.dir
 C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/101/CLionProjects/Answersfor-luogu/cmake-build-debug/CMakeFiles/rebuild_cache.dir

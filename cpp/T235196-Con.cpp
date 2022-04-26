@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <algorithm>
-
+#include <random>
+#include <bits/stdc++.h>
 using namespace std;
 
 long long re(long long x){
@@ -17,13 +18,22 @@ long long post(long long l, long long r) {
     return re(r) - re(l) + ((l % 4 == 0 | l % 2 == 1)? 1 : 0);
 }
 
+long long post1(long long l, long long r) {
+    long long result = 0;
+    for(long long i = l; i <= r; i++)
+        if(i%4 == 0 or i%2)result++;
+    return result;
+}
+
 int main() {
     long long n;
     long long l, r;
     cin >> n;
+    srand(time(nullptr));
     for (long long i = 0; i < n; i++) {
-        cin >> l >> r;
-        cout << post(l, r);
+        l = rand(), r = rand();
+        if (post1(l, r) != post(l, r))
+            cout << post(l, r) << endl;
+
     }
-    return 0;
 }

@@ -15,7 +15,10 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -30,7 +33,10 @@
 					"name" : "Answersfor_luogu",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -39,8 +45,29 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Answersfor_luogu::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Answersfor_luogu-Debug-bd91f95f2cb7af590408.json",
+					"jsonFile" : "target-Answersfor_luogu-Debug-2f67a14cb639201e7e73.json",
 					"name" : "Answersfor_luogu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1010::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1010-Debug-604571327417b98a9f39.json",
+					"name" : "P1010",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T235196::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T235196-Debug-e2c010bef9db6bbaf2df.json",
+					"name" : "T235196",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T235196-Pai::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T235196-Pai-Debug-631f656d764d023fe629.json",
+					"name" : "T235196-Pai",
 					"projectIndex" : 0
 				}
 			]
