@@ -67,6 +67,8 @@ all: CMakeFiles/T235196-Pai.dir/all
 all: CMakeFiles/T235196.dir/all
 all: CMakeFiles/P1010.dir/all
 all: CMakeFiles/P1010-Pai.dir/all
+all: CMakeFiles/P3611.dir/all
+all: CMakeFiles/try.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +81,8 @@ clean: CMakeFiles/T235196-Pai.dir/clean
 clean: CMakeFiles/T235196.dir/clean
 clean: CMakeFiles/P1010.dir/clean
 clean: CMakeFiles/P1010-Pai.dir/clean
+clean: CMakeFiles/P3611.dir/clean
+clean: CMakeFiles/try.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,7 +118,7 @@ CMakeFiles/Answersfor_luogu.dir/clean:
 CMakeFiles/T235196-Pai.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target T235196-Pai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target T235196-Pai"
 .PHONY : CMakeFiles/T235196-Pai.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +144,7 @@ CMakeFiles/T235196-Pai.dir/clean:
 CMakeFiles/T235196.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=7,8,9 "Built target T235196"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=9,10,11 "Built target T235196"
 .PHONY : CMakeFiles/T235196.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,6 +214,58 @@ P1010-Pai: CMakeFiles/P1010-Pai.dir/rule
 CMakeFiles/P1010-Pai.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/clean
 .PHONY : CMakeFiles/P1010-Pai.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3611.dir
+
+# All Build rule for target.
+CMakeFiles/P3611.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target P3611"
+.PHONY : CMakeFiles/P3611.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3611.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P3611.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3611.dir/rule
+
+# Convenience name for target.
+P3611: CMakeFiles/P3611.dir/rule
+.PHONY : P3611
+
+# clean rule for target.
+CMakeFiles/P3611.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/clean
+.PHONY : CMakeFiles/P3611.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/try.dir
+
+# All Build rule for target.
+CMakeFiles/try.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target try"
+.PHONY : CMakeFiles/try.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/try.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/try.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/try.dir/rule
+
+# Convenience name for target.
+try: CMakeFiles/try.dir/rule
+.PHONY : try
+
+# clean rule for target.
+CMakeFiles/try.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/clean
+.PHONY : CMakeFiles/try.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

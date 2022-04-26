@@ -180,6 +180,32 @@ P1010-Pai/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/build
 .PHONY : P1010-Pai/fast
 
+#=============================================================================
+# Target rules for targets named P3611
+
+# Build rule for target.
+P3611: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P3611
+.PHONY : P3611
+
+# fast build rule for target.
+P3611/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/build
+.PHONY : P3611/fast
+
+#=============================================================================
+# Target rules for targets named try
+
+# Build rule for target.
+try: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 try
+.PHONY : try
+
+# fast build rule for target.
+try/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/build
+.PHONY : try/fast
+
 cpp/P1010-Pai.obj: cpp/P1010-Pai.cpp.obj
 .PHONY : cpp/P1010-Pai.obj
 
@@ -227,6 +253,30 @@ cpp/P1010.s: cpp/P1010.cpp.s
 cpp/P1010.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010.dir\build.make CMakeFiles/P1010.dir/cpp/P1010.cpp.s
 .PHONY : cpp/P1010.cpp.s
+
+cpp/P3611.obj: cpp/P3611.cpp.obj
+.PHONY : cpp/P3611.obj
+
+# target to build an object file
+cpp/P3611.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/cpp/P3611.cpp.obj
+.PHONY : cpp/P3611.cpp.obj
+
+cpp/P3611.i: cpp/P3611.cpp.i
+.PHONY : cpp/P3611.i
+
+# target to preprocess a source file
+cpp/P3611.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/cpp/P3611.cpp.i
+.PHONY : cpp/P3611.cpp.i
+
+cpp/P3611.s: cpp/P3611.cpp.s
+.PHONY : cpp/P3611.s
+
+# target to generate assembly for a file
+cpp/P3611.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/cpp/P3611.cpp.s
+.PHONY : cpp/P3611.cpp.s
 
 cpp/T235196-Con.obj: cpp/T235196-Con.cpp.obj
 .PHONY : cpp/T235196-Con.obj
@@ -300,6 +350,30 @@ cpp/T235196.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196.cpp.s
 .PHONY : cpp/T235196.cpp.s
 
+cpp/try.obj: cpp/try.cpp.obj
+.PHONY : cpp/try.obj
+
+# target to build an object file
+cpp/try.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/cpp/try.cpp.obj
+.PHONY : cpp/try.cpp.obj
+
+cpp/try.i: cpp/try.cpp.i
+.PHONY : cpp/try.i
+
+# target to preprocess a source file
+cpp/try.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/cpp/try.cpp.i
+.PHONY : cpp/try.cpp.i
+
+cpp/try.s: cpp/try.cpp.s
+.PHONY : cpp/try.s
+
+# target to generate assembly for a file
+cpp/try.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/cpp/try.cpp.s
+.PHONY : cpp/try.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -335,14 +409,19 @@ help:
 	@echo ... Answersfor_luogu
 	@echo ... P1010
 	@echo ... P1010-Pai
+	@echo ... P3611
 	@echo ... T235196
 	@echo ... T235196-Pai
+	@echo ... try
 	@echo ... cpp/P1010-Pai.obj
 	@echo ... cpp/P1010-Pai.i
 	@echo ... cpp/P1010-Pai.s
 	@echo ... cpp/P1010.obj
 	@echo ... cpp/P1010.i
 	@echo ... cpp/P1010.s
+	@echo ... cpp/P3611.obj
+	@echo ... cpp/P3611.i
+	@echo ... cpp/P3611.s
 	@echo ... cpp/T235196-Con.obj
 	@echo ... cpp/T235196-Con.i
 	@echo ... cpp/T235196-Con.s
@@ -352,6 +431,9 @@ help:
 	@echo ... cpp/T235196.obj
 	@echo ... cpp/T235196.i
 	@echo ... cpp/T235196.s
+	@echo ... cpp/try.obj
+	@echo ... cpp/try.i
+	@echo ... cpp/try.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,15 +1,49 @@
-//
-// Created by Work on 2022/4/26.
-//
-#include<bits/stdc++.h>
+#include <iostream>
+#include <cstring>
+#include <string>
+#include <algorithm>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
-string run(int x,int i=0,string s=string("")){
-	if(x==0)return string("0");
-	do if(x&1)s=(i==1?"2":"2("+run(i)+")")+(s==""?"":"+")+s;//拼接字符串，应题意，要把低次方接在后面
-	while(++i,x>>=1);//每次向右移位
-	return s;
+int LEss = 0, least = 0;
+
+int main(int argc, char **argv) {
+    //freopen("oooout.txt","w",stdout);
+    int people = 0, water = 0, t = 0;
+    cin >> people >> water;
+    int peo_t[people];
+    for (int i = 0; i < people; i++) {
+        cin >> peo_t[i];
+    }
+    int w_o[water];
+    for (int i = 0; i < water; i++) {
+        w_o[i] = peo_t[i];
+    }
+    for (int i = water; i <= people; i++) {
+
+        LEss = 999999;
+
+        for (int j = 0; j < water; j++) {
+            if (w_o[j] < LEss) {
+                LEss = w_o[j];
+                least = j;
+            }
+        }
+        for (int j = 0; j < water; j++) {
+            w_o[j] = w_o[j] - LEss;
+        }
+        t = t + LEss;
+        if (i == people)
+            break;
+        w_o[least] = peo_t[i];
+    }
+    LEss = 0;
+    for (int j = 0; j < water; j++) {
+        if (w_o[j] > LEss) {
+            LEss = w_o[j];
+        }
+    }
+    t += LEss;
+    cout << t;
+    return 0;
 }
-int main(){
-	int x;cin>>x;
-	cout<<run(x)<<endl;
-}
+// https://www.luogu.com.cn/problem/P1190

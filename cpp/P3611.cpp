@@ -1,41 +1,43 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-const int N = 10000 + 5;
 int n, t_max;
-int cow[N];
+int LEss = 0, least = 0, peo_t[999999];
 
-bool check(int x) {
-    priority_queue<int, vector<int>, greater<int> > dance;//维护舞台上舞蹈的牛，小->大
-    for (int i = 1; i <= x; i++)
-        dance.push(cow[i]);
-    for (int i = x + 1; i <= n; i++) {
-        int cur = dance.top();    //下台了的牛
-        dance.pop();
-        dance.push(cur + cow[i]);//读入下一头牛
+bool check(int water) {
+    int cows[water];
+    int t = 0;
+    for (int i = 0; i < water; i++) cows[i] = peo_t[i];
+    for (int i = water + 1; i <= n; i++) {
+        sort(cows, cows + water);
+        t += cows[0];
+//        cout<<cows[0]<<' ';
+        for (int j = 0; j < water; j++) cows[j] -= cows[0];
+        cows[0] = peo_t[i];
     }
-    int cur;
-    while (!dance.empty()) {    //取出最终的用时
-        cur = dance.top();
-        dance.pop();
-    }
-    return cur <= t_max;
+    sort(cows, cows + water);
+    t += cows[water - 1];
+    cout<<t<<endl;
+    return t <= t_max;
 }
 
 int main() {
     cin >> n >> t_max;
-    for (int i = 1; i <= n; ++i) {
-        cin >> cow[i];
+    for (int i = 1; i <= n; i++) {
+        cin >> peo_t[i];
     }
-    int l = 0, r = n + 1;
-    while (l + 1 < r) {//二分舞台大小
-        int mid = l + ((r - l) >> 1);
-        if (check(mid)) {//用时小于上限,减小舞台大小
+
+    int l = 0, r = n;
+    int mid = (r + l + 1) / 2;
+    while (l + 1 < r) {
+        mid = (r + l + 1) / 2;
+        cout << mid << endl;
+        if (check(mid)) {
             r = mid;
-        } else {//增加舞台大小
+        } else {
             l = mid;
         }
     }
-    cout << r;//已知最优的值存在r中,输出r
+    cout << endl << r;
     return 0;
 }
