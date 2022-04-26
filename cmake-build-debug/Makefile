@@ -167,6 +167,43 @@ P1010/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010.dir\build.make CMakeFiles/P1010.dir/build
 .PHONY : P1010/fast
 
+#=============================================================================
+# Target rules for targets named P1010-Pai
+
+# Build rule for target.
+P1010-Pai: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1010-Pai
+.PHONY : P1010-Pai
+
+# fast build rule for target.
+P1010-Pai/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/build
+.PHONY : P1010-Pai/fast
+
+cpp/P1010-Pai.obj: cpp/P1010-Pai.cpp.obj
+.PHONY : cpp/P1010-Pai.obj
+
+# target to build an object file
+cpp/P1010-Pai.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/cpp/P1010-Pai.cpp.obj
+.PHONY : cpp/P1010-Pai.cpp.obj
+
+cpp/P1010-Pai.i: cpp/P1010-Pai.cpp.i
+.PHONY : cpp/P1010-Pai.i
+
+# target to preprocess a source file
+cpp/P1010-Pai.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/cpp/P1010-Pai.cpp.i
+.PHONY : cpp/P1010-Pai.cpp.i
+
+cpp/P1010-Pai.s: cpp/P1010-Pai.cpp.s
+.PHONY : cpp/P1010-Pai.s
+
+# target to generate assembly for a file
+cpp/P1010-Pai.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/cpp/P1010-Pai.cpp.s
+.PHONY : cpp/P1010-Pai.cpp.s
+
 cpp/P1010.obj: cpp/P1010.cpp.obj
 .PHONY : cpp/P1010.obj
 
@@ -297,8 +334,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Answersfor_luogu
 	@echo ... P1010
+	@echo ... P1010-Pai
 	@echo ... T235196
 	@echo ... T235196-Pai
+	@echo ... cpp/P1010-Pai.obj
+	@echo ... cpp/P1010-Pai.i
+	@echo ... cpp/P1010-Pai.s
 	@echo ... cpp/P1010.obj
 	@echo ... cpp/P1010.i
 	@echo ... cpp/P1010.s
