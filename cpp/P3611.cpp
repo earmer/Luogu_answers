@@ -1,43 +1,34 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
-int n, t_max;
-int LEss = 0, least = 0, peo_t[999999];
+int n, n1, m, w[9999999], s[9999999], maxx, limit;
 
-bool check(int water) {
-    int cows[water];
+bool water() {
+    for (int i = 0; i < n1;i++) s[i] = w[i];
     int t = 0;
-    for (int i = 0; i < water; i++) cows[i] = peo_t[i];
-    for (int i = water + 1; i <= n; i++) {
-        sort(cows, cows + water);
-        t += cows[0];
-//        cout<<cows[0]<<' ';
-        for (int j = 0; j < water; j++) cows[j] -= cows[0];
-        cows[0] = peo_t[i];
+    for (int i = n1; i < n; i++) {
+        sort(s, s + n1);
+        int temp = s[0];
+        t += temp;
+        for (int j = 0; j < n1; j++) {
+            s[i] -= temp;
+        }
+        s[0] = w[i];
     }
-    sort(cows, cows + water);
-    t += cows[water - 1];
-    cout<<t<<endl;
-    return t <= t_max;
+    sort(s, s+n1);
+    t += s[n1 - 1];
+    return t <= limit;
 }
 
 int main() {
-    cin >> n >> t_max;
-    for (int i = 1; i <= n; i++) {
-        cin >> peo_t[i];
+    cin >> n >> limit;
+    n1 = n;
+    for (int i = 0; i < n; i++) cin >> w[i];
+    int l = 0, r = n1;
+    while (l < r) {
+        n1 = (l + r) / 2;
+        if (water())r = n1;
+        else l = n1 + 1;
     }
-
-    int l = 0, r = n;
-    int mid = (r + l + 1) / 2;
-    while (l + 1 < r) {
-        mid = (r + l + 1) / 2;
-        cout << mid << endl;
-        if (check(mid)) {
-            r = mid;
-        } else {
-            l = mid;
-        }
-    }
-    cout << endl << r;
-    return 0;
+    cout << n1;
 }
