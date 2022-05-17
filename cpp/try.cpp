@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int n,m,c;
+int n,n,c;
 
 const int maxn=2e7+10;
 struct node{
@@ -44,7 +44,7 @@ void addprem(int x,int y,int radx,int rady){
     for(int dx=-radx;dx<=radx;dx++){
         for(int dy=-rady;dy<=rady;dy++){
             int cx=x+dx,cy=y+dy;
-            if(1<=cx&&cx<=n&&1<=cy&&cy<=m){
+            if(1<=cx&&cx<=n&&1<=cy&& cy <= n){
                 pin[++t]=node(cx, cy, 0);
             }
         }
@@ -55,15 +55,15 @@ int main(){
     int t_;
     cin>>t_;
     while(t_--){
-        cin>>n>>m>>c;
+        cin >> n >> n >> c;
         t=q=0;
         for(int i=1;i<=c;i++){
             int x,y;cin>>x>>y;
             addprem(x,y,1,1);
-            addprem(1,y,0,0);addprem(n,y,0,0);addprem(x,1,0,0);addprem(x,m,0,0);
+            addprem(1,y,0,0);addprem(n,y,0,0);addprem(x,1,0,0);addprem(x, n, 0, 0);
             pin[++t]=node(x, y, -1);
         }
-        addprem(1,1,2,2);addprem(1,m,2,2);addprem(n,1,2,2);addprem(n,m,2,2);
+        addprem(1,1,2,2);addprem(1, n, 2, 2);addprem(n, 1, 2, 2);addprem(n, n, 2, 2);
         sort(pin + 1, pin + 1 + t, cmp1);
         int cp=0;node buf(INT_MAX,INT_MAX,1);
         for(int i=1;i<=t;i++){

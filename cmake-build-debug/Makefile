@@ -258,6 +258,19 @@ P1216/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/build
 .PHONY : P1216/fast
 
+#=============================================================================
+# Target rules for targets named P1091
+
+# Build rule for target.
+P1091: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1091
+.PHONY : P1091
+
+# fast build rule for target.
+P1091/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1091.dir\build.make CMakeFiles/P1091.dir/build
+.PHONY : P1091/fast
+
 cpp/P1010-Pai.obj: cpp/P1010-Pai.cpp.obj
 .PHONY : cpp/P1010-Pai.obj
 
@@ -305,6 +318,30 @@ cpp/P1010.s: cpp/P1010.cpp.s
 cpp/P1010.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010.dir\build.make CMakeFiles/P1010.dir/cpp/P1010.cpp.s
 .PHONY : cpp/P1010.cpp.s
+
+cpp/P1091.obj: cpp/P1091.cpp.obj
+.PHONY : cpp/P1091.obj
+
+# target to build an object file
+cpp/P1091.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1091.dir\build.make CMakeFiles/P1091.dir/cpp/P1091.cpp.obj
+.PHONY : cpp/P1091.cpp.obj
+
+cpp/P1091.i: cpp/P1091.cpp.i
+.PHONY : cpp/P1091.i
+
+# target to preprocess a source file
+cpp/P1091.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1091.dir\build.make CMakeFiles/P1091.dir/cpp/P1091.cpp.i
+.PHONY : cpp/P1091.cpp.i
+
+cpp/P1091.s: cpp/P1091.cpp.s
+.PHONY : cpp/P1091.s
+
+# target to generate assembly for a file
+cpp/P1091.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1091.dir\build.make CMakeFiles/P1091.dir/cpp/P1091.cpp.s
+.PHONY : cpp/P1091.cpp.s
 
 cpp/P1115.obj: cpp/P1115.cpp.obj
 .PHONY : cpp/P1115.obj
@@ -557,6 +594,7 @@ help:
 	@echo ... Answersfor_luogu
 	@echo ... P1010
 	@echo ... P1010-Pai
+	@echo ... P1091
 	@echo ... P1115
 	@echo ... P1216
 	@echo ... P1596
@@ -571,6 +609,9 @@ help:
 	@echo ... cpp/P1010.obj
 	@echo ... cpp/P1010.i
 	@echo ... cpp/P1010.s
+	@echo ... cpp/P1091.obj
+	@echo ... cpp/P1091.i
+	@echo ... cpp/P1091.s
 	@echo ... cpp/P1115.obj
 	@echo ... cpp/P1115.i
 	@echo ... cpp/P1115.s
