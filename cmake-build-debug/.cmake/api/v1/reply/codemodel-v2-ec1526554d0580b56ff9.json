@@ -24,7 +24,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -48,7 +49,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -80,6 +82,13 @@
 					"id" : "P1115::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-P1115-Debug-758839d2917b907495a8.json",
 					"name" : "P1115",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1216::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1216-Debug-c6d125a07c6cb348fdd3.json",
+					"name" : "P1216",
 					"projectIndex" : 0
 				},
 				{

@@ -245,6 +245,19 @@ P1115/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/build
 .PHONY : P1115/fast
 
+#=============================================================================
+# Target rules for targets named P1216
+
+# Build rule for target.
+P1216: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1216
+.PHONY : P1216
+
+# fast build rule for target.
+P1216/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/build
+.PHONY : P1216/fast
+
 cpp/P1010-Pai.obj: cpp/P1010-Pai.cpp.obj
 .PHONY : cpp/P1010-Pai.obj
 
@@ -316,6 +329,30 @@ cpp/P1115.s: cpp/P1115.cpp.s
 cpp/P1115.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/cpp/P1115.cpp.s
 .PHONY : cpp/P1115.cpp.s
+
+cpp/P1216.obj: cpp/P1216.cpp.obj
+.PHONY : cpp/P1216.obj
+
+# target to build an object file
+cpp/P1216.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/cpp/P1216.cpp.obj
+.PHONY : cpp/P1216.cpp.obj
+
+cpp/P1216.i: cpp/P1216.cpp.i
+.PHONY : cpp/P1216.i
+
+# target to preprocess a source file
+cpp/P1216.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/cpp/P1216.cpp.i
+.PHONY : cpp/P1216.cpp.i
+
+cpp/P1216.s: cpp/P1216.cpp.s
+.PHONY : cpp/P1216.s
+
+# target to generate assembly for a file
+cpp/P1216.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/cpp/P1216.cpp.s
+.PHONY : cpp/P1216.cpp.s
 
 cpp/P1596.obj: cpp/P1596.cpp.obj
 .PHONY : cpp/P1596.obj
@@ -521,6 +558,7 @@ help:
 	@echo ... P1010
 	@echo ... P1010-Pai
 	@echo ... P1115
+	@echo ... P1216
 	@echo ... P1596
 	@echo ... P3611
 	@echo ... T235196
@@ -536,6 +574,9 @@ help:
 	@echo ... cpp/P1115.obj
 	@echo ... cpp/P1115.i
 	@echo ... cpp/P1115.s
+	@echo ... cpp/P1216.obj
+	@echo ... cpp/P1216.i
+	@echo ... cpp/P1216.s
 	@echo ... cpp/P1596.obj
 	@echo ... cpp/P1596.i
 	@echo ... cpp/P1596.s
