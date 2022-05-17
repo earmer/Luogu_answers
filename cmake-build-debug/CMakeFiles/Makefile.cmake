@@ -58,4 +58,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/P1010-Pai.dir/DependInfo.cmake"
   "CMakeFiles/P3611.dir/DependInfo.cmake"
   "CMakeFiles/try.dir/DependInfo.cmake"
+  "CMakeFiles/new.dir/DependInfo.cmake"
+  "CMakeFiles/P1596.dir/DependInfo.cmake"
+  "CMakeFiles/P1115.dir/DependInfo.cmake"
   )

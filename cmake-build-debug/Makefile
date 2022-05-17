@@ -206,6 +206,45 @@ try/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/build
 .PHONY : try/fast
 
+#=============================================================================
+# Target rules for targets named new
+
+# Build rule for target.
+new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 new
+.PHONY : new
+
+# fast build rule for target.
+new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/build
+.PHONY : new/fast
+
+#=============================================================================
+# Target rules for targets named P1596
+
+# Build rule for target.
+P1596: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1596
+.PHONY : P1596
+
+# fast build rule for target.
+P1596/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1596.dir\build.make CMakeFiles/P1596.dir/build
+.PHONY : P1596/fast
+
+#=============================================================================
+# Target rules for targets named P1115
+
+# Build rule for target.
+P1115: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1115
+.PHONY : P1115
+
+# fast build rule for target.
+P1115/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/build
+.PHONY : P1115/fast
+
 cpp/P1010-Pai.obj: cpp/P1010-Pai.cpp.obj
 .PHONY : cpp/P1010-Pai.obj
 
@@ -253,6 +292,54 @@ cpp/P1010.s: cpp/P1010.cpp.s
 cpp/P1010.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010.dir\build.make CMakeFiles/P1010.dir/cpp/P1010.cpp.s
 .PHONY : cpp/P1010.cpp.s
+
+cpp/P1115.obj: cpp/P1115.cpp.obj
+.PHONY : cpp/P1115.obj
+
+# target to build an object file
+cpp/P1115.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/cpp/P1115.cpp.obj
+.PHONY : cpp/P1115.cpp.obj
+
+cpp/P1115.i: cpp/P1115.cpp.i
+.PHONY : cpp/P1115.i
+
+# target to preprocess a source file
+cpp/P1115.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/cpp/P1115.cpp.i
+.PHONY : cpp/P1115.cpp.i
+
+cpp/P1115.s: cpp/P1115.cpp.s
+.PHONY : cpp/P1115.s
+
+# target to generate assembly for a file
+cpp/P1115.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/cpp/P1115.cpp.s
+.PHONY : cpp/P1115.cpp.s
+
+cpp/P1596.obj: cpp/P1596.cpp.obj
+.PHONY : cpp/P1596.obj
+
+# target to build an object file
+cpp/P1596.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1596.dir\build.make CMakeFiles/P1596.dir/cpp/P1596.cpp.obj
+.PHONY : cpp/P1596.cpp.obj
+
+cpp/P1596.i: cpp/P1596.cpp.i
+.PHONY : cpp/P1596.i
+
+# target to preprocess a source file
+cpp/P1596.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1596.dir\build.make CMakeFiles/P1596.dir/cpp/P1596.cpp.i
+.PHONY : cpp/P1596.cpp.i
+
+cpp/P1596.s: cpp/P1596.cpp.s
+.PHONY : cpp/P1596.s
+
+# target to generate assembly for a file
+cpp/P1596.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1596.dir\build.make CMakeFiles/P1596.dir/cpp/P1596.cpp.s
+.PHONY : cpp/P1596.cpp.s
 
 cpp/P3611.obj: cpp/P3611.cpp.obj
 .PHONY : cpp/P3611.obj
@@ -350,6 +437,30 @@ cpp/T235196.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196.cpp.s
 .PHONY : cpp/T235196.cpp.s
 
+cpp/new.obj: cpp/new.cpp.obj
+.PHONY : cpp/new.obj
+
+# target to build an object file
+cpp/new.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/cpp/new.cpp.obj
+.PHONY : cpp/new.cpp.obj
+
+cpp/new.i: cpp/new.cpp.i
+.PHONY : cpp/new.i
+
+# target to preprocess a source file
+cpp/new.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/cpp/new.cpp.i
+.PHONY : cpp/new.cpp.i
+
+cpp/new.s: cpp/new.cpp.s
+.PHONY : cpp/new.s
+
+# target to generate assembly for a file
+cpp/new.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/cpp/new.cpp.s
+.PHONY : cpp/new.cpp.s
+
 cpp/try.obj: cpp/try.cpp.obj
 .PHONY : cpp/try.obj
 
@@ -409,9 +520,12 @@ help:
 	@echo ... Answersfor_luogu
 	@echo ... P1010
 	@echo ... P1010-Pai
+	@echo ... P1115
+	@echo ... P1596
 	@echo ... P3611
 	@echo ... T235196
 	@echo ... T235196-Pai
+	@echo ... new
 	@echo ... try
 	@echo ... cpp/P1010-Pai.obj
 	@echo ... cpp/P1010-Pai.i
@@ -419,6 +533,12 @@ help:
 	@echo ... cpp/P1010.obj
 	@echo ... cpp/P1010.i
 	@echo ... cpp/P1010.s
+	@echo ... cpp/P1115.obj
+	@echo ... cpp/P1115.i
+	@echo ... cpp/P1115.s
+	@echo ... cpp/P1596.obj
+	@echo ... cpp/P1596.i
+	@echo ... cpp/P1596.s
 	@echo ... cpp/P3611.obj
 	@echo ... cpp/P3611.i
 	@echo ... cpp/P3611.s
@@ -431,6 +551,9 @@ help:
 	@echo ... cpp/T235196.obj
 	@echo ... cpp/T235196.i
 	@echo ... cpp/T235196.s
+	@echo ... cpp/new.obj
+	@echo ... cpp/new.i
+	@echo ... cpp/new.s
 	@echo ... cpp/try.obj
 	@echo ... cpp/try.i
 	@echo ... cpp/try.s

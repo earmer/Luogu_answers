@@ -5,5 +5,8 @@ C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1010.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1010-Pai.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P3611.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/try.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/new.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1596.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1115.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

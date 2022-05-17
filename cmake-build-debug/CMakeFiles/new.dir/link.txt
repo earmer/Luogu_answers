@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\new.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\new.dir/objects.a @CMakeFiles\new.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\new.dir/objects.a -Wl,--no-whole-archive -o new.exe -Wl,--out-implib,libnew.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\new.dir\linklibs.rsp

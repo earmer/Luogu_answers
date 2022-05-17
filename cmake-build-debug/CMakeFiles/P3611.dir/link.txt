@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\P3611.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\P3611.dir/objects.a @CMakeFiles\P3611.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\P3611.dir/objects.a -Wl,--no-whole-archive -o P3611.exe -Wl,--out-implib,libP3611.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\P3611.dir\linklibs.rsp

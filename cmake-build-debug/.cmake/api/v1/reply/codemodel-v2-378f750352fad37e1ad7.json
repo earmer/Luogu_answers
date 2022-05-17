@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Answersfor_luogu",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Answersfor_luogu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Answersfor_luogu-Debug-2f67a14cb639201e7e73.json",
+					"name" : "Answersfor_luogu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1010::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1010-Debug-604571327417b98a9f39.json",
+					"name" : "P1010",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1010-Pai::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1010-Pai-Debug-5192cf9981bfcf2bcb1b.json",
+					"name" : "P1010-Pai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1115::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1115-Debug-758839d2917b907495a8.json",
+					"name" : "P1115",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1596::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1596-Debug-d950ab1d880b3b6532aa.json",
+					"name" : "P1596",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P3611::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P3611-Debug-6053c53fa315cb84f77f.json",
+					"name" : "P3611",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T235196::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T235196-Debug-e2c010bef9db6bbaf2df.json",
+					"name" : "T235196",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T235196-Pai::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T235196-Pai-Debug-631f656d764d023fe629.json",
+					"name" : "T235196-Pai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new-Debug-4d9a316ce6cae3da0c13.json",
+					"name" : "new",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "try::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-try-Debug-db9e2fd99b4d33dd33d0.json",
+					"name" : "try",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug",
+		"source" : "C:/Users/Work/CLionProjects/Luogu_answers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

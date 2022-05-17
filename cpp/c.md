@@ -12,6 +12,6 @@ C-->D;
 
 ```mermaid
 graph TD;
-a --> b;
+pin --> tong;
 ```
 

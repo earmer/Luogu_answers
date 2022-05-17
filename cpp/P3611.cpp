@@ -1,34 +1,22 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 
 using namespace std;
-int n, n1, m, w[9999999], s[9999999], maxx, limit;
-
-bool water() {
-    for (int i = 0; i < n1;i++) s[i] = w[i];
-    int t = 0;
-    for (int i = n1; i < n; i++) {
-        sort(s, s + n1);
-        int temp = s[0];
-        t += temp;
-        for (int j = 0; j < n1; j++) {
-            s[i] -= temp;
-        }
-        s[0] = w[i];
-    }
-    sort(s, s+n1);
-    t += s[n1 - 1];
-    return t <= limit;
-}
+int total[7];
 
 int main() {
-    cin >> n >> limit;
-    n1 = n;
-    for (int i = 0; i < n; i++) cin >> w[i];
-    int l = 0, r = n1;
-    while (l < r) {
-        n1 = (l + r) / 2;
-        if (water())r = n1;
-        else l = n1 + 1;
+    int n, a, b;
+    cin >> n;
+    while(n--){
+        scanf ("%d %d", &a, &b);
+        if(a < 0 && b > 0){
+            a = abs(a);
+            cout << (a + 4)/4 + (a + 1) / 2 + (b) / 4 + (b + 1) / 2 << endl;
+            continue;
+        }
+        a = abs(a);
+        b = abs(b);
+        if (a > b) swap(a, b);
+        cout <<abs((b+ 4) / 4 + (b + 1) / 2 -  (a + 3)/4 - (a) / 2)<< endl;
     }
-    cout << n1;
+    return 0;
 }
