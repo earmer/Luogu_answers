@@ -4,7 +4,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-int num[15] = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384};
+int answer[15] = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384};
 //bool ret[14] = {false};
 
 int temp;
@@ -14,8 +14,8 @@ int find(int n, int x) {
         return temp;
     //    bool ret[14] = {false};
     for (int i = 14; i >= 0; i--) {
-        if (n >= num[i]) {
-            temp = num[i];
+        if (n >= answer[i]) {
+            temp = answer[i];
             return i;
         }
     }
@@ -28,17 +28,17 @@ void printout(int n) {
             cout << "2(0)";
         else {
             cout << "2";
-            int mi = find(n, 0);
+            int mi = b_find(n, 0);
             if(mi != 1) {
-//        int calculate = n - mi;
+//        int calculate = b - mi;
                 cout << "(";
                 printout(mi);
                 cout << ")";
                 }
-            if (n - num[find(n, 0)]) {
+            if (n - answer[b_find(n, 0)]) {
                 cout << "+";
-//                cout<< "  #debug/ " << find(n, 0) << " /debug#  ";
-                printout(n - find(n, 1));
+//                cout<< "  #debug/ " << b_find(b, 0) << " /debug#  ";
+                printout(n - b_find(n, 1));
 
             }
         }

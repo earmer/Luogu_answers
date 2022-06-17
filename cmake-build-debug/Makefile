@@ -271,6 +271,357 @@ P1091/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1091.dir\build.make CMakeFiles/P1091.dir/build
 .PHONY : P1091/fast
 
+#=============================================================================
+# Target rules for targets named P1521
+
+# Build rule for target.
+P1521: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1521
+.PHONY : P1521
+
+# fast build rule for target.
+P1521/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1521.dir\build.make CMakeFiles/P1521.dir/build
+.PHONY : P1521/fast
+
+#=============================================================================
+# Target rules for targets named P2661
+
+# Build rule for target.
+P2661: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2661
+.PHONY : P2661
+
+# fast build rule for target.
+P2661/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2661.dir\build.make CMakeFiles/P2661.dir/build
+.PHONY : P2661/fast
+
+#=============================================================================
+# Target rules for targets named sudoku
+
+# Build rule for target.
+sudoku: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sudoku
+.PHONY : sudoku
+
+# fast build rule for target.
+sudoku/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sudoku.dir\build.make CMakeFiles/sudoku.dir/build
+.PHONY : sudoku/fast
+
+#=============================================================================
+# Target rules for targets named T240906
+
+# Build rule for target.
+T240906: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 T240906
+.PHONY : T240906
+
+# fast build rule for target.
+T240906/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240906.dir\build.make CMakeFiles/T240906.dir/build
+.PHONY : T240906/fast
+
+#=============================================================================
+# Target rules for targets named P1164
+
+# Build rule for target.
+P1164: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1164
+.PHONY : P1164
+
+# fast build rule for target.
+P1164/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1164.dir\build.make CMakeFiles/P1164.dir/build
+.PHONY : P1164/fast
+
+#=============================================================================
+# Target rules for targets named T240900
+
+# Build rule for target.
+T240900: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 T240900
+.PHONY : T240900
+
+# fast build rule for target.
+T240900/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240900.dir\build.make CMakeFiles/T240900.dir/build
+.PHONY : T240900/fast
+
+#=============================================================================
+# Target rules for targets named P1296
+
+# Build rule for target.
+P1296: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1296
+.PHONY : P1296
+
+# fast build rule for target.
+P1296/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1296.dir\build.make CMakeFiles/P1296.dir/build
+.PHONY : P1296/fast
+
+#=============================================================================
+# Target rules for targets named P1141
+
+# Build rule for target.
+P1141: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1141
+.PHONY : P1141
+
+# fast build rule for target.
+P1141/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1141.dir\build.make CMakeFiles/P1141.dir/build
+.PHONY : P1141/fast
+
+#=============================================================================
+# Target rules for targets named P1518
+
+# Build rule for target.
+P1518: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1518
+.PHONY : P1518
+
+# fast build rule for target.
+P1518/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1518.dir\build.make CMakeFiles/P1518.dir/build
+.PHONY : P1518/fast
+
+#=============================================================================
+# Target rules for targets named P1507
+
+# Build rule for target.
+P1507: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1507
+.PHONY : P1507
+
+# fast build rule for target.
+P1507/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1507.dir\build.make CMakeFiles/P1507.dir/build
+.PHONY : P1507/fast
+
+#=============================================================================
+# Target rules for targets named P1586
+
+# Build rule for target.
+P1586: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1586
+.PHONY : P1586
+
+# fast build rule for target.
+P1586/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1586.dir\build.make CMakeFiles/P1586.dir/build
+.PHONY : P1586/fast
+
+#=============================================================================
+# Target rules for targets named T225963
+
+# Build rule for target.
+T225963: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 T225963
+.PHONY : T225963
+
+# fast build rule for target.
+T225963/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T225963.dir\build.make CMakeFiles/T225963.dir/build
+.PHONY : T225963/fast
+
+#=============================================================================
+# Target rules for targets named P2118
+
+# Build rule for target.
+P2118: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2118
+.PHONY : P2118
+
+# fast build rule for target.
+P2118/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2118.dir\build.make CMakeFiles/P2118.dir/build
+.PHONY : P2118/fast
+
+#=============================================================================
+# Target rules for targets named P2563
+
+# Build rule for target.
+P2563: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2563
+.PHONY : P2563
+
+# fast build rule for target.
+P2563/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2563.dir\build.make CMakeFiles/P2563.dir/build
+.PHONY : P2563/fast
+
+#=============================================================================
+# Target rules for targets named P1378
+
+# Build rule for target.
+P1378: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1378
+.PHONY : P1378
+
+# fast build rule for target.
+P1378/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1378.dir\build.make CMakeFiles/P1378.dir/build
+.PHONY : P1378/fast
+
+#=============================================================================
+# Target rules for targets named P2723
+
+# Build rule for target.
+P2723: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2723
+.PHONY : P2723
+
+# fast build rule for target.
+P2723/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2723.dir\build.make CMakeFiles/P2723.dir/build
+.PHONY : P2723/fast
+
+#=============================================================================
+# Target rules for targets named P1439
+
+# Build rule for target.
+P1439: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1439
+.PHONY : P1439
+
+# fast build rule for target.
+P1439/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1439.dir\build.make CMakeFiles/P1439.dir/build
+.PHONY : P1439/fast
+
+#=============================================================================
+# Target rules for targets named P2758
+
+# Build rule for target.
+P2758: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2758
+.PHONY : P2758
+
+# fast build rule for target.
+P2758/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2758.dir\build.make CMakeFiles/P2758.dir/build
+.PHONY : P2758/fast
+
+#=============================================================================
+# Target rules for targets named P1880
+
+# Build rule for target.
+P1880: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1880
+.PHONY : P1880
+
+# fast build rule for target.
+P1880/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1880.dir\build.make CMakeFiles/P1880.dir/build
+.PHONY : P1880/fast
+
+#=============================================================================
+# Target rules for targets named P2615
+
+# Build rule for target.
+P2615: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2615
+.PHONY : P2615
+
+# fast build rule for target.
+P2615/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2615.dir\build.make CMakeFiles/P2615.dir/build
+.PHONY : P2615/fast
+
+#=============================================================================
+# Target rules for targets named P1719
+
+# Build rule for target.
+P1719: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1719
+.PHONY : P1719
+
+# fast build rule for target.
+P1719/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1719.dir\build.make CMakeFiles/P1719.dir/build
+.PHONY : P1719/fast
+
+#=============================================================================
+# Target rules for targets named P1118
+
+# Build rule for target.
+P1118: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1118
+.PHONY : P1118
+
+# fast build rule for target.
+P1118/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1118.dir\build.make CMakeFiles/P1118.dir/build
+.PHONY : P1118/fast
+
+#=============================================================================
+# Target rules for targets named P2979
+
+# Build rule for target.
+P2979: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2979
+.PHONY : P2979
+
+# fast build rule for target.
+P2979/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2979.dir\build.make CMakeFiles/P2979.dir/build
+.PHONY : P2979/fast
+
+#=============================================================================
+# Target rules for targets named P1435
+
+# Build rule for target.
+P1435: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1435
+.PHONY : P1435
+
+# fast build rule for target.
+P1435/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1435.dir\build.make CMakeFiles/P1435.dir/build
+.PHONY : P1435/fast
+
+#=============================================================================
+# Target rules for targets named P1681
+
+# Build rule for target.
+P1681: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1681
+.PHONY : P1681
+
+# fast build rule for target.
+P1681/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1681.dir\build.make CMakeFiles/P1681.dir/build
+.PHONY : P1681/fast
+
+#=============================================================================
+# Target rules for targets named P1130
+
+# Build rule for target.
+P1130: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1130
+.PHONY : P1130
+
+# fast build rule for target.
+P1130/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1130.dir\build.make CMakeFiles/P1130.dir/build
+.PHONY : P1130/fast
+
+#=============================================================================
+# Target rules for targets named T240678
+
+# Build rule for target.
+T240678: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 T240678
+.PHONY : T240678
+
+# fast build rule for target.
+T240678/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240678.dir\build.make CMakeFiles/T240678.dir/build
+.PHONY : T240678/fast
+
 cpp/P1010-Pai.obj: cpp/P1010-Pai.cpp.obj
 .PHONY : cpp/P1010-Pai.obj
 
@@ -367,6 +718,102 @@ cpp/P1115.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/cpp/P1115.cpp.s
 .PHONY : cpp/P1115.cpp.s
 
+cpp/P1118.obj: cpp/P1118.cpp.obj
+.PHONY : cpp/P1118.obj
+
+# target to build an object file
+cpp/P1118.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1118.dir\build.make CMakeFiles/P1118.dir/cpp/P1118.cpp.obj
+.PHONY : cpp/P1118.cpp.obj
+
+cpp/P1118.i: cpp/P1118.cpp.i
+.PHONY : cpp/P1118.i
+
+# target to preprocess a source file
+cpp/P1118.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1118.dir\build.make CMakeFiles/P1118.dir/cpp/P1118.cpp.i
+.PHONY : cpp/P1118.cpp.i
+
+cpp/P1118.s: cpp/P1118.cpp.s
+.PHONY : cpp/P1118.s
+
+# target to generate assembly for a file
+cpp/P1118.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1118.dir\build.make CMakeFiles/P1118.dir/cpp/P1118.cpp.s
+.PHONY : cpp/P1118.cpp.s
+
+cpp/P1130.obj: cpp/P1130.cpp.obj
+.PHONY : cpp/P1130.obj
+
+# target to build an object file
+cpp/P1130.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1130.dir\build.make CMakeFiles/P1130.dir/cpp/P1130.cpp.obj
+.PHONY : cpp/P1130.cpp.obj
+
+cpp/P1130.i: cpp/P1130.cpp.i
+.PHONY : cpp/P1130.i
+
+# target to preprocess a source file
+cpp/P1130.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1130.dir\build.make CMakeFiles/P1130.dir/cpp/P1130.cpp.i
+.PHONY : cpp/P1130.cpp.i
+
+cpp/P1130.s: cpp/P1130.cpp.s
+.PHONY : cpp/P1130.s
+
+# target to generate assembly for a file
+cpp/P1130.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1130.dir\build.make CMakeFiles/P1130.dir/cpp/P1130.cpp.s
+.PHONY : cpp/P1130.cpp.s
+
+cpp/P1141.obj: cpp/P1141.cpp.obj
+.PHONY : cpp/P1141.obj
+
+# target to build an object file
+cpp/P1141.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1141.dir\build.make CMakeFiles/P1141.dir/cpp/P1141.cpp.obj
+.PHONY : cpp/P1141.cpp.obj
+
+cpp/P1141.i: cpp/P1141.cpp.i
+.PHONY : cpp/P1141.i
+
+# target to preprocess a source file
+cpp/P1141.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1141.dir\build.make CMakeFiles/P1141.dir/cpp/P1141.cpp.i
+.PHONY : cpp/P1141.cpp.i
+
+cpp/P1141.s: cpp/P1141.cpp.s
+.PHONY : cpp/P1141.s
+
+# target to generate assembly for a file
+cpp/P1141.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1141.dir\build.make CMakeFiles/P1141.dir/cpp/P1141.cpp.s
+.PHONY : cpp/P1141.cpp.s
+
+cpp/P1164.obj: cpp/P1164.cpp.obj
+.PHONY : cpp/P1164.obj
+
+# target to build an object file
+cpp/P1164.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1164.dir\build.make CMakeFiles/P1164.dir/cpp/P1164.cpp.obj
+.PHONY : cpp/P1164.cpp.obj
+
+cpp/P1164.i: cpp/P1164.cpp.i
+.PHONY : cpp/P1164.i
+
+# target to preprocess a source file
+cpp/P1164.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1164.dir\build.make CMakeFiles/P1164.dir/cpp/P1164.cpp.i
+.PHONY : cpp/P1164.cpp.i
+
+cpp/P1164.s: cpp/P1164.cpp.s
+.PHONY : cpp/P1164.s
+
+# target to generate assembly for a file
+cpp/P1164.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1164.dir\build.make CMakeFiles/P1164.dir/cpp/P1164.cpp.s
+.PHONY : cpp/P1164.cpp.s
+
 cpp/P1216.obj: cpp/P1216.cpp.obj
 .PHONY : cpp/P1216.obj
 
@@ -390,6 +837,198 @@ cpp/P1216.s: cpp/P1216.cpp.s
 cpp/P1216.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/cpp/P1216.cpp.s
 .PHONY : cpp/P1216.cpp.s
+
+cpp/P1296.obj: cpp/P1296.cpp.obj
+.PHONY : cpp/P1296.obj
+
+# target to build an object file
+cpp/P1296.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1296.dir\build.make CMakeFiles/P1296.dir/cpp/P1296.cpp.obj
+.PHONY : cpp/P1296.cpp.obj
+
+cpp/P1296.i: cpp/P1296.cpp.i
+.PHONY : cpp/P1296.i
+
+# target to preprocess a source file
+cpp/P1296.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1296.dir\build.make CMakeFiles/P1296.dir/cpp/P1296.cpp.i
+.PHONY : cpp/P1296.cpp.i
+
+cpp/P1296.s: cpp/P1296.cpp.s
+.PHONY : cpp/P1296.s
+
+# target to generate assembly for a file
+cpp/P1296.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1296.dir\build.make CMakeFiles/P1296.dir/cpp/P1296.cpp.s
+.PHONY : cpp/P1296.cpp.s
+
+cpp/P1378.obj: cpp/P1378.cpp.obj
+.PHONY : cpp/P1378.obj
+
+# target to build an object file
+cpp/P1378.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1378.dir\build.make CMakeFiles/P1378.dir/cpp/P1378.cpp.obj
+.PHONY : cpp/P1378.cpp.obj
+
+cpp/P1378.i: cpp/P1378.cpp.i
+.PHONY : cpp/P1378.i
+
+# target to preprocess a source file
+cpp/P1378.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1378.dir\build.make CMakeFiles/P1378.dir/cpp/P1378.cpp.i
+.PHONY : cpp/P1378.cpp.i
+
+cpp/P1378.s: cpp/P1378.cpp.s
+.PHONY : cpp/P1378.s
+
+# target to generate assembly for a file
+cpp/P1378.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1378.dir\build.make CMakeFiles/P1378.dir/cpp/P1378.cpp.s
+.PHONY : cpp/P1378.cpp.s
+
+cpp/P1435.obj: cpp/P1435.cpp.obj
+.PHONY : cpp/P1435.obj
+
+# target to build an object file
+cpp/P1435.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1435.dir\build.make CMakeFiles/P1435.dir/cpp/P1435.cpp.obj
+.PHONY : cpp/P1435.cpp.obj
+
+cpp/P1435.i: cpp/P1435.cpp.i
+.PHONY : cpp/P1435.i
+
+# target to preprocess a source file
+cpp/P1435.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1435.dir\build.make CMakeFiles/P1435.dir/cpp/P1435.cpp.i
+.PHONY : cpp/P1435.cpp.i
+
+cpp/P1435.s: cpp/P1435.cpp.s
+.PHONY : cpp/P1435.s
+
+# target to generate assembly for a file
+cpp/P1435.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1435.dir\build.make CMakeFiles/P1435.dir/cpp/P1435.cpp.s
+.PHONY : cpp/P1435.cpp.s
+
+cpp/P1439.obj: cpp/P1439.cpp.obj
+.PHONY : cpp/P1439.obj
+
+# target to build an object file
+cpp/P1439.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1439.dir\build.make CMakeFiles/P1439.dir/cpp/P1439.cpp.obj
+.PHONY : cpp/P1439.cpp.obj
+
+cpp/P1439.i: cpp/P1439.cpp.i
+.PHONY : cpp/P1439.i
+
+# target to preprocess a source file
+cpp/P1439.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1439.dir\build.make CMakeFiles/P1439.dir/cpp/P1439.cpp.i
+.PHONY : cpp/P1439.cpp.i
+
+cpp/P1439.s: cpp/P1439.cpp.s
+.PHONY : cpp/P1439.s
+
+# target to generate assembly for a file
+cpp/P1439.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1439.dir\build.make CMakeFiles/P1439.dir/cpp/P1439.cpp.s
+.PHONY : cpp/P1439.cpp.s
+
+cpp/P1507.obj: cpp/P1507.cpp.obj
+.PHONY : cpp/P1507.obj
+
+# target to build an object file
+cpp/P1507.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1507.dir\build.make CMakeFiles/P1507.dir/cpp/P1507.cpp.obj
+.PHONY : cpp/P1507.cpp.obj
+
+cpp/P1507.i: cpp/P1507.cpp.i
+.PHONY : cpp/P1507.i
+
+# target to preprocess a source file
+cpp/P1507.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1507.dir\build.make CMakeFiles/P1507.dir/cpp/P1507.cpp.i
+.PHONY : cpp/P1507.cpp.i
+
+cpp/P1507.s: cpp/P1507.cpp.s
+.PHONY : cpp/P1507.s
+
+# target to generate assembly for a file
+cpp/P1507.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1507.dir\build.make CMakeFiles/P1507.dir/cpp/P1507.cpp.s
+.PHONY : cpp/P1507.cpp.s
+
+cpp/P1518.obj: cpp/P1518.cpp.obj
+.PHONY : cpp/P1518.obj
+
+# target to build an object file
+cpp/P1518.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1518.dir\build.make CMakeFiles/P1518.dir/cpp/P1518.cpp.obj
+.PHONY : cpp/P1518.cpp.obj
+
+cpp/P1518.i: cpp/P1518.cpp.i
+.PHONY : cpp/P1518.i
+
+# target to preprocess a source file
+cpp/P1518.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1518.dir\build.make CMakeFiles/P1518.dir/cpp/P1518.cpp.i
+.PHONY : cpp/P1518.cpp.i
+
+cpp/P1518.s: cpp/P1518.cpp.s
+.PHONY : cpp/P1518.s
+
+# target to generate assembly for a file
+cpp/P1518.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1518.dir\build.make CMakeFiles/P1518.dir/cpp/P1518.cpp.s
+.PHONY : cpp/P1518.cpp.s
+
+cpp/P1521.obj: cpp/P1521.cpp.obj
+.PHONY : cpp/P1521.obj
+
+# target to build an object file
+cpp/P1521.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1521.dir\build.make CMakeFiles/P1521.dir/cpp/P1521.cpp.obj
+.PHONY : cpp/P1521.cpp.obj
+
+cpp/P1521.i: cpp/P1521.cpp.i
+.PHONY : cpp/P1521.i
+
+# target to preprocess a source file
+cpp/P1521.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1521.dir\build.make CMakeFiles/P1521.dir/cpp/P1521.cpp.i
+.PHONY : cpp/P1521.cpp.i
+
+cpp/P1521.s: cpp/P1521.cpp.s
+.PHONY : cpp/P1521.s
+
+# target to generate assembly for a file
+cpp/P1521.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1521.dir\build.make CMakeFiles/P1521.dir/cpp/P1521.cpp.s
+.PHONY : cpp/P1521.cpp.s
+
+cpp/P1586.obj: cpp/P1586.cpp.obj
+.PHONY : cpp/P1586.obj
+
+# target to build an object file
+cpp/P1586.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1586.dir\build.make CMakeFiles/P1586.dir/cpp/P1586.cpp.obj
+.PHONY : cpp/P1586.cpp.obj
+
+cpp/P1586.i: cpp/P1586.cpp.i
+.PHONY : cpp/P1586.i
+
+# target to preprocess a source file
+cpp/P1586.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1586.dir\build.make CMakeFiles/P1586.dir/cpp/P1586.cpp.i
+.PHONY : cpp/P1586.cpp.i
+
+cpp/P1586.s: cpp/P1586.cpp.s
+.PHONY : cpp/P1586.s
+
+# target to generate assembly for a file
+cpp/P1586.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1586.dir\build.make CMakeFiles/P1586.dir/cpp/P1586.cpp.s
+.PHONY : cpp/P1586.cpp.s
 
 cpp/P1596.obj: cpp/P1596.cpp.obj
 .PHONY : cpp/P1596.obj
@@ -415,6 +1054,246 @@ cpp/P1596.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1596.dir\build.make CMakeFiles/P1596.dir/cpp/P1596.cpp.s
 .PHONY : cpp/P1596.cpp.s
 
+cpp/P1681.obj: cpp/P1681.cpp.obj
+.PHONY : cpp/P1681.obj
+
+# target to build an object file
+cpp/P1681.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1681.dir\build.make CMakeFiles/P1681.dir/cpp/P1681.cpp.obj
+.PHONY : cpp/P1681.cpp.obj
+
+cpp/P1681.i: cpp/P1681.cpp.i
+.PHONY : cpp/P1681.i
+
+# target to preprocess a source file
+cpp/P1681.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1681.dir\build.make CMakeFiles/P1681.dir/cpp/P1681.cpp.i
+.PHONY : cpp/P1681.cpp.i
+
+cpp/P1681.s: cpp/P1681.cpp.s
+.PHONY : cpp/P1681.s
+
+# target to generate assembly for a file
+cpp/P1681.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1681.dir\build.make CMakeFiles/P1681.dir/cpp/P1681.cpp.s
+.PHONY : cpp/P1681.cpp.s
+
+cpp/P1719.obj: cpp/P1719.cpp.obj
+.PHONY : cpp/P1719.obj
+
+# target to build an object file
+cpp/P1719.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1719.dir\build.make CMakeFiles/P1719.dir/cpp/P1719.cpp.obj
+.PHONY : cpp/P1719.cpp.obj
+
+cpp/P1719.i: cpp/P1719.cpp.i
+.PHONY : cpp/P1719.i
+
+# target to preprocess a source file
+cpp/P1719.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1719.dir\build.make CMakeFiles/P1719.dir/cpp/P1719.cpp.i
+.PHONY : cpp/P1719.cpp.i
+
+cpp/P1719.s: cpp/P1719.cpp.s
+.PHONY : cpp/P1719.s
+
+# target to generate assembly for a file
+cpp/P1719.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1719.dir\build.make CMakeFiles/P1719.dir/cpp/P1719.cpp.s
+.PHONY : cpp/P1719.cpp.s
+
+cpp/P1880.obj: cpp/P1880.cpp.obj
+.PHONY : cpp/P1880.obj
+
+# target to build an object file
+cpp/P1880.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1880.dir\build.make CMakeFiles/P1880.dir/cpp/P1880.cpp.obj
+.PHONY : cpp/P1880.cpp.obj
+
+cpp/P1880.i: cpp/P1880.cpp.i
+.PHONY : cpp/P1880.i
+
+# target to preprocess a source file
+cpp/P1880.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1880.dir\build.make CMakeFiles/P1880.dir/cpp/P1880.cpp.i
+.PHONY : cpp/P1880.cpp.i
+
+cpp/P1880.s: cpp/P1880.cpp.s
+.PHONY : cpp/P1880.s
+
+# target to generate assembly for a file
+cpp/P1880.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1880.dir\build.make CMakeFiles/P1880.dir/cpp/P1880.cpp.s
+.PHONY : cpp/P1880.cpp.s
+
+cpp/P2118.obj: cpp/P2118.cpp.obj
+.PHONY : cpp/P2118.obj
+
+# target to build an object file
+cpp/P2118.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2118.dir\build.make CMakeFiles/P2118.dir/cpp/P2118.cpp.obj
+.PHONY : cpp/P2118.cpp.obj
+
+cpp/P2118.i: cpp/P2118.cpp.i
+.PHONY : cpp/P2118.i
+
+# target to preprocess a source file
+cpp/P2118.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2118.dir\build.make CMakeFiles/P2118.dir/cpp/P2118.cpp.i
+.PHONY : cpp/P2118.cpp.i
+
+cpp/P2118.s: cpp/P2118.cpp.s
+.PHONY : cpp/P2118.s
+
+# target to generate assembly for a file
+cpp/P2118.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2118.dir\build.make CMakeFiles/P2118.dir/cpp/P2118.cpp.s
+.PHONY : cpp/P2118.cpp.s
+
+cpp/P2563.obj: cpp/P2563.cpp.obj
+.PHONY : cpp/P2563.obj
+
+# target to build an object file
+cpp/P2563.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2563.dir\build.make CMakeFiles/P2563.dir/cpp/P2563.cpp.obj
+.PHONY : cpp/P2563.cpp.obj
+
+cpp/P2563.i: cpp/P2563.cpp.i
+.PHONY : cpp/P2563.i
+
+# target to preprocess a source file
+cpp/P2563.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2563.dir\build.make CMakeFiles/P2563.dir/cpp/P2563.cpp.i
+.PHONY : cpp/P2563.cpp.i
+
+cpp/P2563.s: cpp/P2563.cpp.s
+.PHONY : cpp/P2563.s
+
+# target to generate assembly for a file
+cpp/P2563.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2563.dir\build.make CMakeFiles/P2563.dir/cpp/P2563.cpp.s
+.PHONY : cpp/P2563.cpp.s
+
+cpp/P2615.obj: cpp/P2615.cpp.obj
+.PHONY : cpp/P2615.obj
+
+# target to build an object file
+cpp/P2615.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2615.dir\build.make CMakeFiles/P2615.dir/cpp/P2615.cpp.obj
+.PHONY : cpp/P2615.cpp.obj
+
+cpp/P2615.i: cpp/P2615.cpp.i
+.PHONY : cpp/P2615.i
+
+# target to preprocess a source file
+cpp/P2615.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2615.dir\build.make CMakeFiles/P2615.dir/cpp/P2615.cpp.i
+.PHONY : cpp/P2615.cpp.i
+
+cpp/P2615.s: cpp/P2615.cpp.s
+.PHONY : cpp/P2615.s
+
+# target to generate assembly for a file
+cpp/P2615.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2615.dir\build.make CMakeFiles/P2615.dir/cpp/P2615.cpp.s
+.PHONY : cpp/P2615.cpp.s
+
+cpp/P2661.obj: cpp/P2661.cpp.obj
+.PHONY : cpp/P2661.obj
+
+# target to build an object file
+cpp/P2661.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2661.dir\build.make CMakeFiles/P2661.dir/cpp/P2661.cpp.obj
+.PHONY : cpp/P2661.cpp.obj
+
+cpp/P2661.i: cpp/P2661.cpp.i
+.PHONY : cpp/P2661.i
+
+# target to preprocess a source file
+cpp/P2661.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2661.dir\build.make CMakeFiles/P2661.dir/cpp/P2661.cpp.i
+.PHONY : cpp/P2661.cpp.i
+
+cpp/P2661.s: cpp/P2661.cpp.s
+.PHONY : cpp/P2661.s
+
+# target to generate assembly for a file
+cpp/P2661.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2661.dir\build.make CMakeFiles/P2661.dir/cpp/P2661.cpp.s
+.PHONY : cpp/P2661.cpp.s
+
+cpp/P2723.obj: cpp/P2723.cpp.obj
+.PHONY : cpp/P2723.obj
+
+# target to build an object file
+cpp/P2723.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2723.dir\build.make CMakeFiles/P2723.dir/cpp/P2723.cpp.obj
+.PHONY : cpp/P2723.cpp.obj
+
+cpp/P2723.i: cpp/P2723.cpp.i
+.PHONY : cpp/P2723.i
+
+# target to preprocess a source file
+cpp/P2723.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2723.dir\build.make CMakeFiles/P2723.dir/cpp/P2723.cpp.i
+.PHONY : cpp/P2723.cpp.i
+
+cpp/P2723.s: cpp/P2723.cpp.s
+.PHONY : cpp/P2723.s
+
+# target to generate assembly for a file
+cpp/P2723.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2723.dir\build.make CMakeFiles/P2723.dir/cpp/P2723.cpp.s
+.PHONY : cpp/P2723.cpp.s
+
+cpp/P2758.obj: cpp/P2758.cpp.obj
+.PHONY : cpp/P2758.obj
+
+# target to build an object file
+cpp/P2758.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2758.dir\build.make CMakeFiles/P2758.dir/cpp/P2758.cpp.obj
+.PHONY : cpp/P2758.cpp.obj
+
+cpp/P2758.i: cpp/P2758.cpp.i
+.PHONY : cpp/P2758.i
+
+# target to preprocess a source file
+cpp/P2758.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2758.dir\build.make CMakeFiles/P2758.dir/cpp/P2758.cpp.i
+.PHONY : cpp/P2758.cpp.i
+
+cpp/P2758.s: cpp/P2758.cpp.s
+.PHONY : cpp/P2758.s
+
+# target to generate assembly for a file
+cpp/P2758.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2758.dir\build.make CMakeFiles/P2758.dir/cpp/P2758.cpp.s
+.PHONY : cpp/P2758.cpp.s
+
+cpp/P2979.obj: cpp/P2979.cpp.obj
+.PHONY : cpp/P2979.obj
+
+# target to build an object file
+cpp/P2979.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2979.dir\build.make CMakeFiles/P2979.dir/cpp/P2979.cpp.obj
+.PHONY : cpp/P2979.cpp.obj
+
+cpp/P2979.i: cpp/P2979.cpp.i
+.PHONY : cpp/P2979.i
+
+# target to preprocess a source file
+cpp/P2979.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2979.dir\build.make CMakeFiles/P2979.dir/cpp/P2979.cpp.i
+.PHONY : cpp/P2979.cpp.i
+
+cpp/P2979.s: cpp/P2979.cpp.s
+.PHONY : cpp/P2979.s
+
+# target to generate assembly for a file
+cpp/P2979.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2979.dir\build.make CMakeFiles/P2979.dir/cpp/P2979.cpp.s
+.PHONY : cpp/P2979.cpp.s
+
 cpp/P3611.obj: cpp/P3611.cpp.obj
 .PHONY : cpp/P3611.obj
 
@@ -438,6 +1317,54 @@ cpp/P3611.s: cpp/P3611.cpp.s
 cpp/P3611.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/cpp/P3611.cpp.s
 .PHONY : cpp/P3611.cpp.s
+
+cpp/T/T240678.obj: cpp/T/T240678.cpp.obj
+.PHONY : cpp/T/T240678.obj
+
+# target to build an object file
+cpp/T/T240678.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240678.dir\build.make CMakeFiles/T240678.dir/cpp/T/T240678.cpp.obj
+.PHONY : cpp/T/T240678.cpp.obj
+
+cpp/T/T240678.i: cpp/T/T240678.cpp.i
+.PHONY : cpp/T/T240678.i
+
+# target to preprocess a source file
+cpp/T/T240678.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240678.dir\build.make CMakeFiles/T240678.dir/cpp/T/T240678.cpp.i
+.PHONY : cpp/T/T240678.cpp.i
+
+cpp/T/T240678.s: cpp/T/T240678.cpp.s
+.PHONY : cpp/T/T240678.s
+
+# target to generate assembly for a file
+cpp/T/T240678.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240678.dir\build.make CMakeFiles/T240678.dir/cpp/T/T240678.cpp.s
+.PHONY : cpp/T/T240678.cpp.s
+
+cpp/T225963.obj: cpp/T225963.cpp.obj
+.PHONY : cpp/T225963.obj
+
+# target to build an object file
+cpp/T225963.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T225963.dir\build.make CMakeFiles/T225963.dir/cpp/T225963.cpp.obj
+.PHONY : cpp/T225963.cpp.obj
+
+cpp/T225963.i: cpp/T225963.cpp.i
+.PHONY : cpp/T225963.i
+
+# target to preprocess a source file
+cpp/T225963.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T225963.dir\build.make CMakeFiles/T225963.dir/cpp/T225963.cpp.i
+.PHONY : cpp/T225963.cpp.i
+
+cpp/T225963.s: cpp/T225963.cpp.s
+.PHONY : cpp/T225963.s
+
+# target to generate assembly for a file
+cpp/T225963.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T225963.dir\build.make CMakeFiles/T225963.dir/cpp/T225963.cpp.s
+.PHONY : cpp/T225963.cpp.s
 
 cpp/T235196-Con.obj: cpp/T235196-Con.cpp.obj
 .PHONY : cpp/T235196-Con.obj
@@ -511,6 +1438,54 @@ cpp/T235196.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196.cpp.s
 .PHONY : cpp/T235196.cpp.s
 
+cpp/T240900.obj: cpp/T240900.cpp.obj
+.PHONY : cpp/T240900.obj
+
+# target to build an object file
+cpp/T240900.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240900.dir\build.make CMakeFiles/T240900.dir/cpp/T240900.cpp.obj
+.PHONY : cpp/T240900.cpp.obj
+
+cpp/T240900.i: cpp/T240900.cpp.i
+.PHONY : cpp/T240900.i
+
+# target to preprocess a source file
+cpp/T240900.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240900.dir\build.make CMakeFiles/T240900.dir/cpp/T240900.cpp.i
+.PHONY : cpp/T240900.cpp.i
+
+cpp/T240900.s: cpp/T240900.cpp.s
+.PHONY : cpp/T240900.s
+
+# target to generate assembly for a file
+cpp/T240900.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240900.dir\build.make CMakeFiles/T240900.dir/cpp/T240900.cpp.s
+.PHONY : cpp/T240900.cpp.s
+
+cpp/T240906.obj: cpp/T240906.cpp.obj
+.PHONY : cpp/T240906.obj
+
+# target to build an object file
+cpp/T240906.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240906.dir\build.make CMakeFiles/T240906.dir/cpp/T240906.cpp.obj
+.PHONY : cpp/T240906.cpp.obj
+
+cpp/T240906.i: cpp/T240906.cpp.i
+.PHONY : cpp/T240906.i
+
+# target to preprocess a source file
+cpp/T240906.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240906.dir\build.make CMakeFiles/T240906.dir/cpp/T240906.cpp.i
+.PHONY : cpp/T240906.cpp.i
+
+cpp/T240906.s: cpp/T240906.cpp.s
+.PHONY : cpp/T240906.s
+
+# target to generate assembly for a file
+cpp/T240906.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240906.dir\build.make CMakeFiles/T240906.dir/cpp/T240906.cpp.s
+.PHONY : cpp/T240906.cpp.s
+
 cpp/new.obj: cpp/new.cpp.obj
 .PHONY : cpp/new.obj
 
@@ -534,6 +1509,30 @@ cpp/new.s: cpp/new.cpp.s
 cpp/new.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/cpp/new.cpp.s
 .PHONY : cpp/new.cpp.s
+
+cpp/sudoku.obj: cpp/sudoku.cpp.obj
+.PHONY : cpp/sudoku.obj
+
+# target to build an object file
+cpp/sudoku.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sudoku.dir\build.make CMakeFiles/sudoku.dir/cpp/sudoku.cpp.obj
+.PHONY : cpp/sudoku.cpp.obj
+
+cpp/sudoku.i: cpp/sudoku.cpp.i
+.PHONY : cpp/sudoku.i
+
+# target to preprocess a source file
+cpp/sudoku.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sudoku.dir\build.make CMakeFiles/sudoku.dir/cpp/sudoku.cpp.i
+.PHONY : cpp/sudoku.cpp.i
+
+cpp/sudoku.s: cpp/sudoku.cpp.s
+.PHONY : cpp/sudoku.s
+
+# target to generate assembly for a file
+cpp/sudoku.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sudoku.dir\build.make CMakeFiles/sudoku.dir/cpp/sudoku.cpp.s
+.PHONY : cpp/sudoku.cpp.s
 
 cpp/try.obj: cpp/try.cpp.obj
 .PHONY : cpp/try.obj
@@ -596,12 +1595,39 @@ help:
 	@echo ... P1010-Pai
 	@echo ... P1091
 	@echo ... P1115
+	@echo ... P1118
+	@echo ... P1130
+	@echo ... P1141
+	@echo ... P1164
 	@echo ... P1216
+	@echo ... P1296
+	@echo ... P1378
+	@echo ... P1435
+	@echo ... P1439
+	@echo ... P1507
+	@echo ... P1518
+	@echo ... P1521
+	@echo ... P1586
 	@echo ... P1596
+	@echo ... P1681
+	@echo ... P1719
+	@echo ... P1880
+	@echo ... P2118
+	@echo ... P2563
+	@echo ... P2615
+	@echo ... P2661
+	@echo ... P2723
+	@echo ... P2758
+	@echo ... P2979
 	@echo ... P3611
+	@echo ... T225963
 	@echo ... T235196
 	@echo ... T235196-Pai
+	@echo ... T240678
+	@echo ... T240900
+	@echo ... T240906
 	@echo ... new
+	@echo ... sudoku
 	@echo ... try
 	@echo ... cpp/P1010-Pai.obj
 	@echo ... cpp/P1010-Pai.i
@@ -615,15 +1641,87 @@ help:
 	@echo ... cpp/P1115.obj
 	@echo ... cpp/P1115.i
 	@echo ... cpp/P1115.s
+	@echo ... cpp/P1118.obj
+	@echo ... cpp/P1118.i
+	@echo ... cpp/P1118.s
+	@echo ... cpp/P1130.obj
+	@echo ... cpp/P1130.i
+	@echo ... cpp/P1130.s
+	@echo ... cpp/P1141.obj
+	@echo ... cpp/P1141.i
+	@echo ... cpp/P1141.s
+	@echo ... cpp/P1164.obj
+	@echo ... cpp/P1164.i
+	@echo ... cpp/P1164.s
 	@echo ... cpp/P1216.obj
 	@echo ... cpp/P1216.i
 	@echo ... cpp/P1216.s
+	@echo ... cpp/P1296.obj
+	@echo ... cpp/P1296.i
+	@echo ... cpp/P1296.s
+	@echo ... cpp/P1378.obj
+	@echo ... cpp/P1378.i
+	@echo ... cpp/P1378.s
+	@echo ... cpp/P1435.obj
+	@echo ... cpp/P1435.i
+	@echo ... cpp/P1435.s
+	@echo ... cpp/P1439.obj
+	@echo ... cpp/P1439.i
+	@echo ... cpp/P1439.s
+	@echo ... cpp/P1507.obj
+	@echo ... cpp/P1507.i
+	@echo ... cpp/P1507.s
+	@echo ... cpp/P1518.obj
+	@echo ... cpp/P1518.i
+	@echo ... cpp/P1518.s
+	@echo ... cpp/P1521.obj
+	@echo ... cpp/P1521.i
+	@echo ... cpp/P1521.s
+	@echo ... cpp/P1586.obj
+	@echo ... cpp/P1586.i
+	@echo ... cpp/P1586.s
 	@echo ... cpp/P1596.obj
 	@echo ... cpp/P1596.i
 	@echo ... cpp/P1596.s
+	@echo ... cpp/P1681.obj
+	@echo ... cpp/P1681.i
+	@echo ... cpp/P1681.s
+	@echo ... cpp/P1719.obj
+	@echo ... cpp/P1719.i
+	@echo ... cpp/P1719.s
+	@echo ... cpp/P1880.obj
+	@echo ... cpp/P1880.i
+	@echo ... cpp/P1880.s
+	@echo ... cpp/P2118.obj
+	@echo ... cpp/P2118.i
+	@echo ... cpp/P2118.s
+	@echo ... cpp/P2563.obj
+	@echo ... cpp/P2563.i
+	@echo ... cpp/P2563.s
+	@echo ... cpp/P2615.obj
+	@echo ... cpp/P2615.i
+	@echo ... cpp/P2615.s
+	@echo ... cpp/P2661.obj
+	@echo ... cpp/P2661.i
+	@echo ... cpp/P2661.s
+	@echo ... cpp/P2723.obj
+	@echo ... cpp/P2723.i
+	@echo ... cpp/P2723.s
+	@echo ... cpp/P2758.obj
+	@echo ... cpp/P2758.i
+	@echo ... cpp/P2758.s
+	@echo ... cpp/P2979.obj
+	@echo ... cpp/P2979.i
+	@echo ... cpp/P2979.s
 	@echo ... cpp/P3611.obj
 	@echo ... cpp/P3611.i
 	@echo ... cpp/P3611.s
+	@echo ... cpp/T/T240678.obj
+	@echo ... cpp/T/T240678.i
+	@echo ... cpp/T/T240678.s
+	@echo ... cpp/T225963.obj
+	@echo ... cpp/T225963.i
+	@echo ... cpp/T225963.s
 	@echo ... cpp/T235196-Con.obj
 	@echo ... cpp/T235196-Con.i
 	@echo ... cpp/T235196-Con.s
@@ -633,9 +1731,18 @@ help:
 	@echo ... cpp/T235196.obj
 	@echo ... cpp/T235196.i
 	@echo ... cpp/T235196.s
+	@echo ... cpp/T240900.obj
+	@echo ... cpp/T240900.i
+	@echo ... cpp/T240900.s
+	@echo ... cpp/T240906.obj
+	@echo ... cpp/T240906.i
+	@echo ... cpp/T240906.s
 	@echo ... cpp/new.obj
 	@echo ... cpp/new.i
 	@echo ... cpp/new.s
+	@echo ... cpp/sudoku.obj
+	@echo ... cpp/sudoku.i
+	@echo ... cpp/sudoku.s
 	@echo ... cpp/try.obj
 	@echo ... cpp/try.i
 	@echo ... cpp/try.s

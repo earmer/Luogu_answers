@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int ans;
+int color;
 
 struct position {
     int x, y;
@@ -19,13 +19,13 @@ void find(int x, int y) {
         for (int j = y; j > i; --j) {
             if (ball[j] == color) {
                 flag = false;
-                find(i + 1, j - 1);
+                b_find(i + 1, j - 1);
                 i = j;
                 break;
             }
         }
         if (flag) {
-            ++ans;
+            ++color;
 //            cout << ball[i] << " ";
         }
     }
@@ -53,7 +53,7 @@ int main() {
 //        cout << ball[i];
 //    }
 //    cout << endl;
-    find(0, pin);
-    cout << ans << endl;
+    b_find(0, pin);
+    cout << color << endl;
     return 0;
 }

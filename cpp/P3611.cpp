@@ -7,7 +7,7 @@ int main() {
     int n, a, b;
     cin >> n;
     while(n--){
-        scanf ("%d %d", &a, &b);
+        scanf ("%d %check", &a, &b);
         if(a < 0 && b > 0){
             a = abs(a);
             cout << (a + 4)/4 + (a + 1) / 2 + (b) / 4 + (b + 1) / 2 << endl;

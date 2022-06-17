@@ -1,16 +1,15 @@
-#include<cstdio>
-#include<iostream>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
-char a[105][105];
-int b[105][105];
-int x2[8] = {0, 1, 1, 1, 0, -1, -1, -1};
-int y2[8] = {1, 1, 0, -1, -1, -1, 0, 1};
+int N, dp[5005][5005], tune[5005], ans = 0;
+
+int look(int i, int j) { return max(ans, dp[i][j] = min(j - i - 1, dp[i - 1][j - 1] + 1)); }
 
 int main() {
-    string s = "12345";
-    cout << s.size()<<endl;
+    cin >> N;
+    for (int i = 1; i <= N; ++i)scanf("%d", &tune[i]);
+    for (int i = N; i > 0; --i)tune[i] -= tune[i - 1];
+    for (int i = 2; i <= N; ++i)for (int j = i + ans + 1; j <= N; ++j)if (tune[i] - tune[j] == 0) ans = look(i, j);
+    printf("%d\n", (ans <= 3) ? 0 : ++ans);
     return 0;
 }
-TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
