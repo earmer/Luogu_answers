@@ -37,5 +37,10 @@ C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1435.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1681.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1130.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/T240678.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P2822.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P2822_1.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1969.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P6003.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1736.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
