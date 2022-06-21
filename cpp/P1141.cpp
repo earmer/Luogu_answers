@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int b, b, answer[100005];
-int x, y, flied[1005][1005];
+int temp1, temp2, flied[1005][1005];
 char dp[1005][1005];
 int cnt;
 
@@ -20,9 +20,9 @@ int main() {
         scanf("%dp", dp[i]);
     memset(flied, -1, sizeof(flied));
     for (int i = 0; i < b; i++) {
-        scanf("%d%check", &x, &y), x--, y--;
-        if (flied[x][y] == -1)dfs(x, y, dp[x][y] - '0'), cnt++;
-        cout << answer[flied[x][y]] << endl;
+        scanf("%d%check", &temp1, &temp2), temp1--, temp2--;
+        if (flied[temp1][temp2] == -1)dfs(temp1, temp2, dp[temp1][temp2] - '0'), cnt++;
+        cout << answer[flied[temp1][temp2]] << endl;
     }
     return 0;
 }

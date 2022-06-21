@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/try.dir/cpp/try.cpp.obj: CMakeFiles/try.dir/flags.make
 CMakeFiles/try.dir/cpp/try.cpp.obj: ../cpp/try.cpp
 CMakeFiles/try.dir/cpp/try.cpp.obj: CMakeFiles/try.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/try.dir/cpp/try.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/try.dir/cpp/try.cpp.obj -MF CMakeFiles\try.dir\cpp\try.cpp.obj.d -o CMakeFiles\try.dir\cpp\try.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\try.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/try.dir/cpp/try.cpp.obj -MF CMakeFiles\try.dir\cpp\try.cpp.obj.d -o CMakeFiles\try.dir\cpp\try.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\try.cpp
 
 CMakeFiles/try.dir/cpp/try.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/try.dir/cpp/try.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\try.cpp > CMakeFiles\try.dir\cpp\try.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\try.cpp > CMakeFiles\try.dir\cpp\try.cpp.i
 
 CMakeFiles/try.dir/cpp/try.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/try.dir/cpp/try.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\try.cpp -o CMakeFiles\try.dir\cpp\try.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\try.cpp -o CMakeFiles\try.dir\cpp\try.cpp.s
 
 # Object files for target try
 try_OBJECTS = \

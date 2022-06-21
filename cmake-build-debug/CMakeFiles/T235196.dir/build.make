@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,45 +72,61 @@ CMakeFiles/T235196.dir/cpp/T235196.cpp.obj: CMakeFiles/T235196.dir/flags.make
 CMakeFiles/T235196.dir/cpp/T235196.cpp.obj: ../cpp/T235196.cpp
 CMakeFiles/T235196.dir/cpp/T235196.cpp.obj: CMakeFiles/T235196.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/T235196.dir/cpp/T235196.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/T235196.dir/cpp/T235196.cpp.obj -MF CMakeFiles\T235196.dir\cpp\T235196.cpp.obj.d -o CMakeFiles\T235196.dir\cpp\T235196.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/T235196.dir/cpp/T235196.cpp.obj -MF CMakeFiles\T235196.dir\cpp\T235196.cpp.obj.d -o CMakeFiles\T235196.dir\cpp\T235196.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196.cpp
 
 CMakeFiles/T235196.dir/cpp/T235196.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T235196.dir/cpp/T235196.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196.cpp > CMakeFiles\T235196.dir\cpp\T235196.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196.cpp > CMakeFiles\T235196.dir\cpp\T235196.cpp.i
 
 CMakeFiles/T235196.dir/cpp/T235196.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T235196.dir/cpp/T235196.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196.cpp -o CMakeFiles\T235196.dir\cpp\T235196.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196.cpp -o CMakeFiles\T235196.dir\cpp\T235196.cpp.s
 
 CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj: CMakeFiles/T235196.dir/flags.make
 CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj: ../cpp/T235196-Con.cpp
 CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj: CMakeFiles/T235196.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj -MF CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.obj.d -o CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196-Con.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj -MF CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.obj.d -o CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196-Con.cpp
 
 CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196-Con.cpp > CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196-Con.cpp > CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.i
 
 CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196-Con.cpp -o CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\T235196-Con.cpp -o CMakeFiles\T235196.dir\cpp\T235196-Con.cpp.s
+
+CMakeFiles/T235196.dir/cpp/P1004.cpp.obj: CMakeFiles/T235196.dir/flags.make
+CMakeFiles/T235196.dir/cpp/P1004.cpp.obj: ../cpp/P1004.cpp
+CMakeFiles/T235196.dir/cpp/P1004.cpp.obj: CMakeFiles/T235196.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/T235196.dir/cpp/P1004.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/T235196.dir/cpp/P1004.cpp.obj -MF CMakeFiles\T235196.dir\cpp\P1004.cpp.obj.d -o CMakeFiles\T235196.dir\cpp\P1004.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\P1004.cpp
+
+CMakeFiles/T235196.dir/cpp/P1004.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T235196.dir/cpp/P1004.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\P1004.cpp > CMakeFiles\T235196.dir\cpp\P1004.cpp.i
+
+CMakeFiles/T235196.dir/cpp/P1004.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T235196.dir/cpp/P1004.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\P1004.cpp -o CMakeFiles\T235196.dir\cpp\P1004.cpp.s
 
 # Object files for target T235196
 T235196_OBJECTS = \
 "CMakeFiles/T235196.dir/cpp/T235196.cpp.obj" \
-"CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj"
+"CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj" \
+"CMakeFiles/T235196.dir/cpp/P1004.cpp.obj"
 
 # External object files for target T235196
 T235196_EXTERNAL_OBJECTS =
 
 T235196.exe: CMakeFiles/T235196.dir/cpp/T235196.cpp.obj
 T235196.exe: CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj
+T235196.exe: CMakeFiles/T235196.dir/cpp/P1004.cpp.obj
 T235196.exe: CMakeFiles/T235196.dir/build.make
 T235196.exe: CMakeFiles/T235196.dir/linklibs.rsp
 T235196.exe: CMakeFiles/T235196.dir/objects1.rsp
 T235196.exe: CMakeFiles/T235196.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable T235196.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable T235196.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\T235196.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

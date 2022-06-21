@@ -7,7 +7,7 @@ using namespace std;
 int LEss = 0, least = 0;
 
 int main(int argc, char **argv) {
-    //freopen("oooout.txt","w",stdout);
+    //freopen("oooout.txt","to_y",stdout);
     int people = 0, water = 0, t = 0;
     cin >> people >> water;
     int peo_t[people];

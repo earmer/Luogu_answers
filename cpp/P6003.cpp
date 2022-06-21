@@ -7,7 +7,7 @@ using namespace std;
 long long to_pay, time_limit, daily_least, have_paid, medium;
 //long long X;
 
-//inline long long up_divide(long long a, long long b) { return (a % b) ? a / b + 1 : a / b; }
+//inline long long up_divide(long long fangge, long long b) { return (fangge % b) ? fangge / b + 1 : fangge / b; }
 
 bool judge_left_right() {
     long long b_to_pay = to_pay, time_left = time_limit;

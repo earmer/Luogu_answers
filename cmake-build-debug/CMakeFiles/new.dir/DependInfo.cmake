@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Work/CLionProjects/Luogu_answers/cpp/P5121.cpp" "CMakeFiles/new.dir/cpp/P5121.cpp.obj" "gcc" "CMakeFiles/new.dir/cpp/P5121.cpp.obj.d"
   "C:/Users/Work/CLionProjects/Luogu_answers/cpp/new.cpp" "CMakeFiles/new.dir/cpp/new.cpp.obj" "gcc" "CMakeFiles/new.dir/cpp/new.cpp.obj.d"
   )
 

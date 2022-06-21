@@ -3,7 +3,7 @@
 #include <cstring>
 
 using namespace std;
-int t, k, n, m;
+int t, k, N, m;
 int c[2005][2005], s[2005][2005];
 
 void prepare();
@@ -14,9 +14,9 @@ int main() {
     cin >> t >> k;
     prepare();
     while (t--) {
-        cin >> n >> m;
-        if (m > n) m = n;
-        cout << s[n][m] << endl;
+        cin >> N >> m;
+        if (m > N) m = N;
+        cout << s[N][m] << endl;
     }
     return 0;
 }

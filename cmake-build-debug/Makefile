@@ -47,10 +47,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -127,32 +127,6 @@ Answersfor_luogu: cmake_check_build_system
 Answersfor_luogu/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Answersfor_luogu.dir\build.make CMakeFiles/Answersfor_luogu.dir/build
 .PHONY : Answersfor_luogu/fast
-
-#=============================================================================
-# Target rules for targets named T235196-Pai
-
-# Build rule for target.
-T235196-Pai: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 T235196-Pai
-.PHONY : T235196-Pai
-
-# fast build rule for target.
-T235196-Pai/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/build
-.PHONY : T235196-Pai/fast
-
-#=============================================================================
-# Target rules for targets named T235196
-
-# Build rule for target.
-T235196: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 T235196
-.PHONY : T235196
-
-# fast build rule for target.
-T235196/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/build
-.PHONY : T235196/fast
 
 #=============================================================================
 # Target rules for targets named P1010
@@ -686,6 +660,56 @@ P1736: cmake_check_build_system
 P1736/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1736.dir\build.make CMakeFiles/P1736.dir/build
 .PHONY : P1736/fast
+
+#=============================================================================
+# Target rules for targets named P1004
+
+# Build rule for target.
+P1004: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1004
+.PHONY : P1004
+
+# fast build rule for target.
+P1004/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1004.dir\build.make CMakeFiles/P1004.dir/build
+.PHONY : P1004/fast
+
+#=============================================================================
+# Target rules for targets named P5121
+
+# Build rule for target.
+P5121: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5121
+.PHONY : P5121
+
+# fast build rule for target.
+P5121/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5121.dir\build.make CMakeFiles/P5121.dir/build
+.PHONY : P5121/fast
+
+cpp/P1004.obj: cpp/P1004.cpp.obj
+.PHONY : cpp/P1004.obj
+
+# target to build an object file
+cpp/P1004.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1004.dir\build.make CMakeFiles/P1004.dir/cpp/P1004.cpp.obj
+.PHONY : cpp/P1004.cpp.obj
+
+cpp/P1004.i: cpp/P1004.cpp.i
+.PHONY : cpp/P1004.i
+
+# target to preprocess a source file
+cpp/P1004.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1004.dir\build.make CMakeFiles/P1004.dir/cpp/P1004.cpp.i
+.PHONY : cpp/P1004.cpp.i
+
+cpp/P1004.s: cpp/P1004.cpp.s
+.PHONY : cpp/P1004.s
+
+# target to generate assembly for a file
+cpp/P1004.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1004.dir\build.make CMakeFiles/P1004.dir/cpp/P1004.cpp.s
+.PHONY : cpp/P1004.cpp.s
 
 cpp/P1010-Pai.obj: cpp/P1010-Pai.cpp.obj
 .PHONY : cpp/P1010-Pai.obj
@@ -1479,6 +1503,33 @@ cpp/P3611.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/cpp/P3611.cpp.s
 .PHONY : cpp/P3611.cpp.s
 
+cpp/P5121.obj: cpp/P5121.cpp.obj
+.PHONY : cpp/P5121.obj
+
+# target to build an object file
+cpp/P5121.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/cpp/P5121.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5121.dir\build.make CMakeFiles/P5121.dir/cpp/P5121.cpp.obj
+.PHONY : cpp/P5121.cpp.obj
+
+cpp/P5121.i: cpp/P5121.cpp.i
+.PHONY : cpp/P5121.i
+
+# target to preprocess a source file
+cpp/P5121.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/cpp/P5121.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5121.dir\build.make CMakeFiles/P5121.dir/cpp/P5121.cpp.i
+.PHONY : cpp/P5121.cpp.i
+
+cpp/P5121.s: cpp/P5121.cpp.s
+.PHONY : cpp/P5121.s
+
+# target to generate assembly for a file
+cpp/P5121.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/cpp/P5121.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5121.dir\build.make CMakeFiles/P5121.dir/cpp/P5121.cpp.s
+.PHONY : cpp/P5121.cpp.s
+
 cpp/P6003.obj: cpp/P6003.cpp.obj
 .PHONY : cpp/P6003.obj
 
@@ -1550,78 +1601,6 @@ cpp/T225963.s: cpp/T225963.cpp.s
 cpp/T225963.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T225963.dir\build.make CMakeFiles/T225963.dir/cpp/T225963.cpp.s
 .PHONY : cpp/T225963.cpp.s
-
-cpp/T235196-Con.obj: cpp/T235196-Con.cpp.obj
-.PHONY : cpp/T235196-Con.obj
-
-# target to build an object file
-cpp/T235196-Con.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.obj
-.PHONY : cpp/T235196-Con.cpp.obj
-
-cpp/T235196-Con.i: cpp/T235196-Con.cpp.i
-.PHONY : cpp/T235196-Con.i
-
-# target to preprocess a source file
-cpp/T235196-Con.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.i
-.PHONY : cpp/T235196-Con.cpp.i
-
-cpp/T235196-Con.s: cpp/T235196-Con.cpp.s
-.PHONY : cpp/T235196-Con.s
-
-# target to generate assembly for a file
-cpp/T235196-Con.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196-Con.cpp.s
-.PHONY : cpp/T235196-Con.cpp.s
-
-cpp/T235196-Pai.obj: cpp/T235196-Pai.cpp.obj
-.PHONY : cpp/T235196-Pai.obj
-
-# target to build an object file
-cpp/T235196-Pai.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/cpp/T235196-Pai.cpp.obj
-.PHONY : cpp/T235196-Pai.cpp.obj
-
-cpp/T235196-Pai.i: cpp/T235196-Pai.cpp.i
-.PHONY : cpp/T235196-Pai.i
-
-# target to preprocess a source file
-cpp/T235196-Pai.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/cpp/T235196-Pai.cpp.i
-.PHONY : cpp/T235196-Pai.cpp.i
-
-cpp/T235196-Pai.s: cpp/T235196-Pai.cpp.s
-.PHONY : cpp/T235196-Pai.s
-
-# target to generate assembly for a file
-cpp/T235196-Pai.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/cpp/T235196-Pai.cpp.s
-.PHONY : cpp/T235196-Pai.cpp.s
-
-cpp/T235196.obj: cpp/T235196.cpp.obj
-.PHONY : cpp/T235196.obj
-
-# target to build an object file
-cpp/T235196.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196.cpp.obj
-.PHONY : cpp/T235196.cpp.obj
-
-cpp/T235196.i: cpp/T235196.cpp.i
-.PHONY : cpp/T235196.i
-
-# target to preprocess a source file
-cpp/T235196.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196.cpp.i
-.PHONY : cpp/T235196.cpp.i
-
-cpp/T235196.s: cpp/T235196.cpp.s
-.PHONY : cpp/T235196.s
-
-# target to generate assembly for a file
-cpp/T235196.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/cpp/T235196.cpp.s
-.PHONY : cpp/T235196.cpp.s
 
 cpp/T240900.obj: cpp/T240900.cpp.obj
 .PHONY : cpp/T240900.obj
@@ -1776,6 +1755,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Answersfor_luogu
+	@echo ... P1004
 	@echo ... P1010
 	@echo ... P1010-Pai
 	@echo ... P1091
@@ -1809,16 +1789,18 @@ help:
 	@echo ... P2822_1
 	@echo ... P2979
 	@echo ... P3611
+	@echo ... P5121
 	@echo ... P6003
 	@echo ... T225963
-	@echo ... T235196
-	@echo ... T235196-Pai
 	@echo ... T240678
 	@echo ... T240900
 	@echo ... T240906
 	@echo ... new
 	@echo ... sudoku
 	@echo ... try
+	@echo ... cpp/P1004.obj
+	@echo ... cpp/P1004.i
+	@echo ... cpp/P1004.s
 	@echo ... cpp/P1010-Pai.obj
 	@echo ... cpp/P1010-Pai.i
 	@echo ... cpp/P1010-Pai.s
@@ -1918,6 +1900,9 @@ help:
 	@echo ... cpp/P3611.obj
 	@echo ... cpp/P3611.i
 	@echo ... cpp/P3611.s
+	@echo ... cpp/P5121.obj
+	@echo ... cpp/P5121.i
+	@echo ... cpp/P5121.s
 	@echo ... cpp/P6003.obj
 	@echo ... cpp/P6003.i
 	@echo ... cpp/P6003.s
@@ -1927,15 +1912,6 @@ help:
 	@echo ... cpp/T225963.obj
 	@echo ... cpp/T225963.i
 	@echo ... cpp/T225963.s
-	@echo ... cpp/T235196-Con.obj
-	@echo ... cpp/T235196-Con.i
-	@echo ... cpp/T235196-Con.s
-	@echo ... cpp/T235196-Pai.obj
-	@echo ... cpp/T235196-Pai.i
-	@echo ... cpp/T235196-Pai.s
-	@echo ... cpp/T235196.obj
-	@echo ... cpp/T235196.i
-	@echo ... cpp/T235196.s
 	@echo ... cpp/T240900.obj
 	@echo ... cpp/T240900.i
 	@echo ... cpp/T240900.s

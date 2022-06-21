@@ -6,7 +6,7 @@
 using namespace std;
 int N;
 int Magic_square[40][40], cnt = 0;
-int status(int x, int y){// x 是行，y 是列
+int status(int x, int y){// temp1 是行，temp2 是列
     if(x == 1){
         if(y == N){
             return 3;

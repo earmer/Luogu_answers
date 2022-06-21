@@ -6,9 +6,9 @@
 //int b, str[200005], color = 1, now;
 //int role = 1;
 //
-//void deal(int x){
-//    if(str[x + 1] != now && role++ < 200005){
-//        deal(str[x + 1]);
+//void deal(int temp1){
+//    if(str[temp1 + 1] != now && role++ < 200005){
+//        deal(str[temp1 + 1]);
 //    }
 //    color = min(color, role);
 //    return;

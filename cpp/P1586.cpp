@@ -3,7 +3,7 @@
 #define wa >>
 using namespace std;
 
-int b, len, mh = 2e9, w[105], color[10005];
+int b, len, mh = 2e9, to_y[105], color[10005];
 bool flied[10005];
 
 int main() {
@@ -15,13 +15,13 @@ int main() {
         while (true) {
             cin wa len;
             if (len == -1) break;
-            w[++count] = len;
+            to_y[++count] = len;
             h += len;
         }
         flied[0] = 1;
         for (int i = 1; i <= count; i++)
-            for (int j = h; j >= w[i]; j--)
-                flied[j] |= flied[j - w[i]];
+            for (int j = h; j >= to_y[i]; j--)
+                flied[j] |= flied[j - to_y[i]];
         mh = min(mh, h);
         for (int i = h; i >= 1; i--)
             if (flied[i] == 1) color[i]++;

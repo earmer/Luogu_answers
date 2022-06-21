@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,29 +72,45 @@ CMakeFiles/new.dir/cpp/new.cpp.obj: CMakeFiles/new.dir/flags.make
 CMakeFiles/new.dir/cpp/new.cpp.obj: ../cpp/new.cpp
 CMakeFiles/new.dir/cpp/new.cpp.obj: CMakeFiles/new.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/new.dir/cpp/new.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/new.dir/cpp/new.cpp.obj -MF CMakeFiles\new.dir\cpp\new.cpp.obj.d -o CMakeFiles\new.dir\cpp\new.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\new.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/new.dir/cpp/new.cpp.obj -MF CMakeFiles\new.dir\cpp\new.cpp.obj.d -o CMakeFiles\new.dir\cpp\new.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\new.cpp
 
 CMakeFiles/new.dir/cpp/new.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/new.dir/cpp/new.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\new.cpp > CMakeFiles\new.dir\cpp\new.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\new.cpp > CMakeFiles\new.dir\cpp\new.cpp.i
 
 CMakeFiles/new.dir/cpp/new.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/new.dir/cpp/new.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\new.cpp -o CMakeFiles\new.dir\cpp\new.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\new.cpp -o CMakeFiles\new.dir\cpp\new.cpp.s
+
+CMakeFiles/new.dir/cpp/P5121.cpp.obj: CMakeFiles/new.dir/flags.make
+CMakeFiles/new.dir/cpp/P5121.cpp.obj: ../cpp/P5121.cpp
+CMakeFiles/new.dir/cpp/P5121.cpp.obj: CMakeFiles/new.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/new.dir/cpp/P5121.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/new.dir/cpp/P5121.cpp.obj -MF CMakeFiles\new.dir\cpp\P5121.cpp.obj.d -o CMakeFiles\new.dir\cpp\P5121.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\cpp\P5121.cpp
+
+CMakeFiles/new.dir/cpp/P5121.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/new.dir/cpp/P5121.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\cpp\P5121.cpp > CMakeFiles\new.dir\cpp\P5121.cpp.i
+
+CMakeFiles/new.dir/cpp/P5121.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/new.dir/cpp/P5121.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\cpp\P5121.cpp -o CMakeFiles\new.dir\cpp\P5121.cpp.s
 
 # Object files for target new
 new_OBJECTS = \
-"CMakeFiles/new.dir/cpp/new.cpp.obj"
+"CMakeFiles/new.dir/cpp/new.cpp.obj" \
+"CMakeFiles/new.dir/cpp/P5121.cpp.obj"
 
 # External object files for target new
 new_EXTERNAL_OBJECTS =
 
 new.exe: CMakeFiles/new.dir/cpp/new.cpp.obj
+new.exe: CMakeFiles/new.dir/cpp/P5121.cpp.obj
 new.exe: CMakeFiles/new.dir/build.make
 new.exe: CMakeFiles/new.dir/linklibs.rsp
 new.exe: CMakeFiles/new.dir/objects1.rsp
 new.exe: CMakeFiles/new.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable new.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable new.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\new.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

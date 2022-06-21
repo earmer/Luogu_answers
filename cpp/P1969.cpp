@@ -3,9 +3,9 @@
 //
 #include <bits/stdc++.h>
 using namespace std;
-int f, N, n, answer;
+int f, N, N, answer;
 int main(){
     scanf("%d", &N);
-    for(int i = 1; i<=N; i++) scanf("%d", &f), (f > n) ?answer+=f-n:0, n = f;
+    for(int i = 1; i<=N; i++) scanf("%d", &f), (f > N) ? answer+= f - N : 0, N = f;
     printf("%d\n", answer);
 }

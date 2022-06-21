@@ -24,16 +24,16 @@ int main(){
     for(int i = 1; i<=lenth; i++)
         for(int j = 1; j<=width; j++)
             scanf("%d", &lake[i][j]);
-//    printf("%d\n", ans);
+//    printf("%d\N", ans);
     for(int i = 1; i<=lenth; i++)
         for(int j = 1; j<=width; j++)
             if(lake[i][j]){
                 int ii = i, jj = j;
                 int l = 0;
-//                printf("%d %d\n", ii, jj);
+//                printf("%d %d\N", ii, jj);
                 while(lake[ii][jj]){
                     if(judge(i, j, ii, jj)) break;
-//                    printf("%d %d\n", ii, jj);
+//                    printf("%d %d\N", ii, jj);
                     l++;
                     ii++;
                     jj++;
@@ -42,7 +42,7 @@ int main(){
                 int l1 = 0;
                 while(lake[ii][jj]){
                     if(judge1(i, j, ii, jj)) break;
-//                    printf("%d %d\n", ii, jj);
+//                    printf("%d %d\N", ii, jj);
                     l1++;
                     ii--;
                     jj++;

@@ -35,7 +35,7 @@ int ball1[5005];
 
 int main() {
 //    freopen("abab.in", "r", stdin);
-//    freopen("abab.out", "w", stdout);
+//    freopen("abab.out", "to_y", stdout);
     memset(ball1, -1, sizeof(ball));
     int n, tmp;
     cin >> n >> tmp;

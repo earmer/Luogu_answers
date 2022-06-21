@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Answersfor_luogu.dir/main.cpp.obj: CMakeFiles/Answersfor_luogu.dir/fl
 CMakeFiles/Answersfor_luogu.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Answersfor_luogu.dir/main.cpp.obj: CMakeFiles/Answersfor_luogu.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Answersfor_luogu.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Answersfor_luogu.dir/main.cpp.obj -MF CMakeFiles\Answersfor_luogu.dir\main.cpp.obj.d -o CMakeFiles\Answersfor_luogu.dir\main.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\main.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Answersfor_luogu.dir/main.cpp.obj -MF CMakeFiles\Answersfor_luogu.dir\main.cpp.obj.d -o CMakeFiles\Answersfor_luogu.dir\main.cpp.obj -c C:\Users\Work\CLionProjects\Luogu_answers\main.cpp
 
 CMakeFiles/Answersfor_luogu.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Answersfor_luogu.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\main.cpp > CMakeFiles\Answersfor_luogu.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Work\CLionProjects\Luogu_answers\main.cpp > CMakeFiles\Answersfor_luogu.dir\main.cpp.i
 
 CMakeFiles/Answersfor_luogu.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Answersfor_luogu.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\main.cpp -o CMakeFiles\Answersfor_luogu.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Work\CLionProjects\Luogu_answers\main.cpp -o CMakeFiles\Answersfor_luogu.dir\main.cpp.s
 
 # Object files for target Answersfor_luogu
 Answersfor_luogu_OBJECTS = \

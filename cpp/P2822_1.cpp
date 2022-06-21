@@ -6,7 +6,7 @@
 #include <cstring>
 
 using namespace std;
-int t, k, n, m;
+int t, k, N, m;
 int c[2005][2005], s[2005][2005];
 
 void prepare();
@@ -15,7 +15,7 @@ int main() {
     memset(c, 0, sizeof(c));
     memset(s, 0, sizeof(s));
     scanf("%d%d",&t,&k), prepare();
-    while (t--) scanf("%d%d", &n, &m), (m > n)? m = n:1, printf("%d\n", &s[n][m]);
+    while (t--) scanf("%d%d", &N, &m), (m > N) ? m = N : 1, printf("%d\n", &s[N][m]);
     return 0;
 }
 

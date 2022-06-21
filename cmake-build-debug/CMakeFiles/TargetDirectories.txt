@@ -1,6 +1,4 @@
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/Answersfor_luogu.dir
-C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/T235196-Pai.dir
-C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/T235196.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1010.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1010-Pai.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P3611.dir
@@ -42,5 +40,7 @@ C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P2822_1.d
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1969.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P6003.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1736.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P1004.dir
+C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/P5121.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Work/CLionProjects/Luogu_answers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

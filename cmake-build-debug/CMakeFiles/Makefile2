@@ -44,10 +44,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -63,8 +63,6 @@ CMAKE_BINARY_DIR = C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/Answersfor_luogu.dir/all
-all: CMakeFiles/T235196-Pai.dir/all
-all: CMakeFiles/T235196.dir/all
 all: CMakeFiles/P1010.dir/all
 all: CMakeFiles/P1010-Pai.dir/all
 all: CMakeFiles/P3611.dir/all
@@ -106,6 +104,8 @@ all: CMakeFiles/P2822_1.dir/all
 all: CMakeFiles/P1969.dir/all
 all: CMakeFiles/P6003.dir/all
 all: CMakeFiles/P1736.dir/all
+all: CMakeFiles/P1004.dir/all
+all: CMakeFiles/P5121.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -114,8 +114,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Answersfor_luogu.dir/clean
-clean: CMakeFiles/T235196-Pai.dir/clean
-clean: CMakeFiles/T235196.dir/clean
 clean: CMakeFiles/P1010.dir/clean
 clean: CMakeFiles/P1010-Pai.dir/clean
 clean: CMakeFiles/P3611.dir/clean
@@ -157,6 +155,8 @@ clean: CMakeFiles/P2822_1.dir/clean
 clean: CMakeFiles/P1969.dir/clean
 clean: CMakeFiles/P6003.dir/clean
 clean: CMakeFiles/P1736.dir/clean
+clean: CMakeFiles/P1004.dir/clean
+clean: CMakeFiles/P5121.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -186,65 +186,13 @@ CMakeFiles/Answersfor_luogu.dir/clean:
 .PHONY : CMakeFiles/Answersfor_luogu.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/T235196-Pai.dir
-
-# All Build rule for target.
-CMakeFiles/T235196-Pai.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=76,77 "Built target T235196-Pai"
-.PHONY : CMakeFiles/T235196-Pai.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/T235196-Pai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/T235196-Pai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/T235196-Pai.dir/rule
-
-# Convenience name for target.
-T235196-Pai: CMakeFiles/T235196-Pai.dir/rule
-.PHONY : T235196-Pai
-
-# clean rule for target.
-CMakeFiles/T235196-Pai.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196-Pai.dir\build.make CMakeFiles/T235196-Pai.dir/clean
-.PHONY : CMakeFiles/T235196-Pai.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/T235196.dir
-
-# All Build rule for target.
-CMakeFiles/T235196.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=73,74,75 "Built target T235196"
-.PHONY : CMakeFiles/T235196.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/T235196.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/T235196.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/T235196.dir/rule
-
-# Convenience name for target.
-T235196: CMakeFiles/T235196.dir/rule
-.PHONY : T235196
-
-# clean rule for target.
-CMakeFiles/T235196.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T235196.dir\build.make CMakeFiles/T235196.dir/clean
-.PHONY : CMakeFiles/T235196.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/P1010.dir
 
 # All Build rule for target.
 CMakeFiles/P1010.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010.dir\build.make CMakeFiles/P1010.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010.dir\build.make CMakeFiles/P1010.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target P1010"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target P1010"
 .PHONY : CMakeFiles/P1010.dir/all
 
 # Build rule for subdir invocation for target.
@@ -270,7 +218,7 @@ CMakeFiles/P1010.dir/clean:
 CMakeFiles/P1010-Pai.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1010-Pai.dir\build.make CMakeFiles/P1010-Pai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target P1010-Pai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target P1010-Pai"
 .PHONY : CMakeFiles/P1010-Pai.dir/all
 
 # Build rule for subdir invocation for target.
@@ -296,7 +244,7 @@ CMakeFiles/P1010-Pai.dir/clean:
 CMakeFiles/P3611.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3611.dir\build.make CMakeFiles/P3611.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target P3611"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target P3611"
 .PHONY : CMakeFiles/P3611.dir/all
 
 # Build rule for subdir invocation for target.
@@ -348,12 +296,12 @@ CMakeFiles/try.dir/clean:
 CMakeFiles/new.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=84,85 "Built target new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=83,84,85 "Built target new"
 .PHONY : CMakeFiles/new.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/new.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/new.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/new.dir/rule
@@ -374,7 +322,7 @@ CMakeFiles/new.dir/clean:
 CMakeFiles/P1596.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1596.dir\build.make CMakeFiles/P1596.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1596.dir\build.make CMakeFiles/P1596.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target P1596"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target P1596"
 .PHONY : CMakeFiles/P1596.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,7 +348,7 @@ CMakeFiles/P1596.dir/clean:
 CMakeFiles/P1115.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1115.dir\build.make CMakeFiles/P1115.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target P1115"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target P1115"
 .PHONY : CMakeFiles/P1115.dir/all
 
 # Build rule for subdir invocation for target.
@@ -426,7 +374,7 @@ CMakeFiles/P1115.dir/clean:
 CMakeFiles/P1216.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target P1216"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target P1216"
 .PHONY : CMakeFiles/P1216.dir/all
 
 # Build rule for subdir invocation for target.
@@ -452,7 +400,7 @@ CMakeFiles/P1216.dir/clean:
 CMakeFiles/P1091.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1091.dir\build.make CMakeFiles/P1091.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1091.dir\build.make CMakeFiles/P1091.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target P1091"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target P1091"
 .PHONY : CMakeFiles/P1091.dir/all
 
 # Build rule for subdir invocation for target.
@@ -478,7 +426,7 @@ CMakeFiles/P1091.dir/clean:
 CMakeFiles/P1521.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1521.dir\build.make CMakeFiles/P1521.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1521.dir\build.make CMakeFiles/P1521.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target P1521"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target P1521"
 .PHONY : CMakeFiles/P1521.dir/all
 
 # Build rule for subdir invocation for target.
@@ -504,7 +452,7 @@ CMakeFiles/P1521.dir/clean:
 CMakeFiles/P2661.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2661.dir\build.make CMakeFiles/P2661.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2661.dir\build.make CMakeFiles/P2661.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target P2661"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target P2661"
 .PHONY : CMakeFiles/P2661.dir/all
 
 # Build rule for subdir invocation for target.
@@ -556,7 +504,7 @@ CMakeFiles/sudoku.dir/clean:
 CMakeFiles/T240906.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240906.dir\build.make CMakeFiles/T240906.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240906.dir\build.make CMakeFiles/T240906.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target T240906"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target T240906"
 .PHONY : CMakeFiles/T240906.dir/all
 
 # Build rule for subdir invocation for target.
@@ -582,7 +530,7 @@ CMakeFiles/T240906.dir/clean:
 CMakeFiles/P1164.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1164.dir\build.make CMakeFiles/P1164.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1164.dir\build.make CMakeFiles/P1164.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target P1164"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target P1164"
 .PHONY : CMakeFiles/P1164.dir/all
 
 # Build rule for subdir invocation for target.
@@ -608,7 +556,7 @@ CMakeFiles/P1164.dir/clean:
 CMakeFiles/T240900.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240900.dir\build.make CMakeFiles/T240900.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240900.dir\build.make CMakeFiles/T240900.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=80,81 "Built target T240900"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target T240900"
 .PHONY : CMakeFiles/T240900.dir/all
 
 # Build rule for subdir invocation for target.
@@ -634,7 +582,7 @@ CMakeFiles/T240900.dir/clean:
 CMakeFiles/P1296.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1296.dir\build.make CMakeFiles/P1296.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1296.dir\build.make CMakeFiles/P1296.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target P1296"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target P1296"
 .PHONY : CMakeFiles/P1296.dir/all
 
 # Build rule for subdir invocation for target.
@@ -660,7 +608,7 @@ CMakeFiles/P1296.dir/clean:
 CMakeFiles/P1141.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1141.dir\build.make CMakeFiles/P1141.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1141.dir\build.make CMakeFiles/P1141.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target P1141"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target P1141"
 .PHONY : CMakeFiles/P1141.dir/all
 
 # Build rule for subdir invocation for target.
@@ -686,7 +634,7 @@ CMakeFiles/P1141.dir/clean:
 CMakeFiles/P1518.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1518.dir\build.make CMakeFiles/P1518.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1518.dir\build.make CMakeFiles/P1518.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target P1518"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target P1518"
 .PHONY : CMakeFiles/P1518.dir/all
 
 # Build rule for subdir invocation for target.
@@ -712,7 +660,7 @@ CMakeFiles/P1518.dir/clean:
 CMakeFiles/P1507.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1507.dir\build.make CMakeFiles/P1507.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1507.dir\build.make CMakeFiles/P1507.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target P1507"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target P1507"
 .PHONY : CMakeFiles/P1507.dir/all
 
 # Build rule for subdir invocation for target.
@@ -738,7 +686,7 @@ CMakeFiles/P1507.dir/clean:
 CMakeFiles/P1586.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1586.dir\build.make CMakeFiles/P1586.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1586.dir\build.make CMakeFiles/P1586.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target P1586"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target P1586"
 .PHONY : CMakeFiles/P1586.dir/all
 
 # Build rule for subdir invocation for target.
@@ -764,7 +712,7 @@ CMakeFiles/P1586.dir/clean:
 CMakeFiles/T225963.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T225963.dir\build.make CMakeFiles/T225963.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T225963.dir\build.make CMakeFiles/T225963.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target T225963"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target T225963"
 .PHONY : CMakeFiles/T225963.dir/all
 
 # Build rule for subdir invocation for target.
@@ -790,7 +738,7 @@ CMakeFiles/T225963.dir/clean:
 CMakeFiles/P2118.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2118.dir\build.make CMakeFiles/P2118.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2118.dir\build.make CMakeFiles/P2118.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target P2118"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target P2118"
 .PHONY : CMakeFiles/P2118.dir/all
 
 # Build rule for subdir invocation for target.
@@ -816,7 +764,7 @@ CMakeFiles/P2118.dir/clean:
 CMakeFiles/P2563.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2563.dir\build.make CMakeFiles/P2563.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2563.dir\build.make CMakeFiles/P2563.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target P2563"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target P2563"
 .PHONY : CMakeFiles/P2563.dir/all
 
 # Build rule for subdir invocation for target.
@@ -842,7 +790,7 @@ CMakeFiles/P2563.dir/clean:
 CMakeFiles/P1378.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1378.dir\build.make CMakeFiles/P1378.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1378.dir\build.make CMakeFiles/P1378.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target P1378"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target P1378"
 .PHONY : CMakeFiles/P1378.dir/all
 
 # Build rule for subdir invocation for target.
@@ -868,7 +816,7 @@ CMakeFiles/P1378.dir/clean:
 CMakeFiles/P2723.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2723.dir\build.make CMakeFiles/P2723.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2723.dir\build.make CMakeFiles/P2723.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target P2723"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target P2723"
 .PHONY : CMakeFiles/P2723.dir/all
 
 # Build rule for subdir invocation for target.
@@ -894,7 +842,7 @@ CMakeFiles/P2723.dir/clean:
 CMakeFiles/P1439.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1439.dir\build.make CMakeFiles/P1439.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1439.dir\build.make CMakeFiles/P1439.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target P1439"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target P1439"
 .PHONY : CMakeFiles/P1439.dir/all
 
 # Build rule for subdir invocation for target.
@@ -920,7 +868,7 @@ CMakeFiles/P1439.dir/clean:
 CMakeFiles/P2758.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2758.dir\build.make CMakeFiles/P2758.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2758.dir\build.make CMakeFiles/P2758.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target P2758"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target P2758"
 .PHONY : CMakeFiles/P2758.dir/all
 
 # Build rule for subdir invocation for target.
@@ -946,7 +894,7 @@ CMakeFiles/P2758.dir/clean:
 CMakeFiles/P1880.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1880.dir\build.make CMakeFiles/P1880.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1880.dir\build.make CMakeFiles/P1880.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target P1880"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target P1880"
 .PHONY : CMakeFiles/P1880.dir/all
 
 # Build rule for subdir invocation for target.
@@ -972,7 +920,7 @@ CMakeFiles/P1880.dir/clean:
 CMakeFiles/P2615.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2615.dir\build.make CMakeFiles/P2615.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2615.dir\build.make CMakeFiles/P2615.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target P2615"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target P2615"
 .PHONY : CMakeFiles/P2615.dir/all
 
 # Build rule for subdir invocation for target.
@@ -998,7 +946,7 @@ CMakeFiles/P2615.dir/clean:
 CMakeFiles/P1719.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1719.dir\build.make CMakeFiles/P1719.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1719.dir\build.make CMakeFiles/P1719.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target P1719"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target P1719"
 .PHONY : CMakeFiles/P1719.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1024,7 +972,7 @@ CMakeFiles/P1719.dir/clean:
 CMakeFiles/P1118.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1118.dir\build.make CMakeFiles/P1118.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1118.dir\build.make CMakeFiles/P1118.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target P1118"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target P1118"
 .PHONY : CMakeFiles/P1118.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1050,7 +998,7 @@ CMakeFiles/P1118.dir/clean:
 CMakeFiles/P2979.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2979.dir\build.make CMakeFiles/P2979.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2979.dir\build.make CMakeFiles/P2979.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target P2979"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target P2979"
 .PHONY : CMakeFiles/P2979.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1076,7 +1024,7 @@ CMakeFiles/P2979.dir/clean:
 CMakeFiles/P1435.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1435.dir\build.make CMakeFiles/P1435.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1435.dir\build.make CMakeFiles/P1435.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target P1435"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target P1435"
 .PHONY : CMakeFiles/P1435.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1102,7 +1050,7 @@ CMakeFiles/P1435.dir/clean:
 CMakeFiles/P1681.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1681.dir\build.make CMakeFiles/P1681.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1681.dir\build.make CMakeFiles/P1681.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target P1681"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target P1681"
 .PHONY : CMakeFiles/P1681.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1128,7 +1076,7 @@ CMakeFiles/P1681.dir/clean:
 CMakeFiles/P1130.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1130.dir\build.make CMakeFiles/P1130.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1130.dir\build.make CMakeFiles/P1130.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target P1130"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target P1130"
 .PHONY : CMakeFiles/P1130.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1154,7 +1102,7 @@ CMakeFiles/P1130.dir/clean:
 CMakeFiles/T240678.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240678.dir\build.make CMakeFiles/T240678.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T240678.dir\build.make CMakeFiles/T240678.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=78,79 "Built target T240678"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target T240678"
 .PHONY : CMakeFiles/T240678.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1180,7 +1128,7 @@ CMakeFiles/T240678.dir/clean:
 CMakeFiles/P2822.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2822.dir\build.make CMakeFiles/P2822.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2822.dir\build.make CMakeFiles/P2822.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target P2822"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target P2822"
 .PHONY : CMakeFiles/P2822.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1206,7 +1154,7 @@ CMakeFiles/P2822.dir/clean:
 CMakeFiles/P2822_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2822_1.dir\build.make CMakeFiles/P2822_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2822_1.dir\build.make CMakeFiles/P2822_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target P2822_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target P2822_1"
 .PHONY : CMakeFiles/P2822_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1232,7 +1180,7 @@ CMakeFiles/P2822_1.dir/clean:
 CMakeFiles/P1969.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1969.dir\build.make CMakeFiles/P1969.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1969.dir\build.make CMakeFiles/P1969.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target P1969"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target P1969"
 .PHONY : CMakeFiles/P1969.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1258,7 +1206,7 @@ CMakeFiles/P1969.dir/clean:
 CMakeFiles/P6003.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P6003.dir\build.make CMakeFiles/P6003.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P6003.dir\build.make CMakeFiles/P6003.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target P6003"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target P6003"
 .PHONY : CMakeFiles/P6003.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1284,7 +1232,7 @@ CMakeFiles/P6003.dir/clean:
 CMakeFiles/P1736.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1736.dir\build.make CMakeFiles/P1736.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1736.dir\build.make CMakeFiles/P1736.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target P1736"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target P1736"
 .PHONY : CMakeFiles/P1736.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1302,6 +1250,58 @@ P1736: CMakeFiles/P1736.dir/rule
 CMakeFiles/P1736.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1736.dir\build.make CMakeFiles/P1736.dir/clean
 .PHONY : CMakeFiles/P1736.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P1004.dir
+
+# All Build rule for target.
+CMakeFiles/P1004.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1004.dir\build.make CMakeFiles/P1004.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1004.dir\build.make CMakeFiles/P1004.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target P1004"
+.PHONY : CMakeFiles/P1004.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P1004.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P1004.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P1004.dir/rule
+
+# Convenience name for target.
+P1004: CMakeFiles/P1004.dir/rule
+.PHONY : P1004
+
+# clean rule for target.
+CMakeFiles/P1004.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1004.dir\build.make CMakeFiles/P1004.dir/clean
+.PHONY : CMakeFiles/P1004.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P5121.dir
+
+# All Build rule for target.
+CMakeFiles/P5121.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5121.dir\build.make CMakeFiles/P5121.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5121.dir\build.make CMakeFiles/P5121.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target P5121"
+.PHONY : CMakeFiles/P5121.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P5121.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P5121.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P5121.dir/rule
+
+# Convenience name for target.
+P5121: CMakeFiles/P5121.dir/rule
+.PHONY : P5121
+
+# clean rule for target.
+CMakeFiles/P5121.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5121.dir\build.make CMakeFiles/P5121.dir/clean
+.PHONY : CMakeFiles/P5121.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
