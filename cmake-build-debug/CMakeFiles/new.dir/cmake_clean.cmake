@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/new.dir/cpp/P5121.cpp.obj"
-  "CMakeFiles/new.dir/cpp/P5121.cpp.obj.d"
   "CMakeFiles/new.dir/cpp/new.cpp.obj"
   "CMakeFiles/new.dir/cpp/new.cpp.obj.d"
   "libnew.dll.a"

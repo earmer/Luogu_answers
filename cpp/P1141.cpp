@@ -5,13 +5,13 @@ int temp1, temp2, flied[1005][1005];
 char dp[1005][1005];
 int cnt;
 
-void dfs(int r, int c, int z) {
-    if (r < 0 || r >= b || c < 0 || c >= b || flied[r][c] != -1 || dp[r][c] - '0' != z)return;
-    flied[r][c] = cnt, answer[cnt]++;
-    dfs(r - 1, c, !z);
-    dfs(r + 1, c, !z);
-    dfs(r, c - 1, !z);
-    dfs(r, c + 1, !z);
+void DFS(int r, int c, int z) {
+    if (x < 0 || x >= b || y < 0 || y >= b || flied[x][y] != -1 || dp[x][y] - '0' != s)return;
+    flied[x][y] = cnt, answer[cnt]++;
+    DFS(x - 1, y, !s);
+    DFS(x + 1, y, !s);
+    DFS(x, y - 1, !s);
+    DFS(x, y + 1, !s);
 }
 
 int main() {
@@ -21,7 +21,7 @@ int main() {
     memset(flied, -1, sizeof(flied));
     for (int i = 0; i < b; i++) {
         scanf("%d%check", &temp1, &temp2), temp1--, temp2--;
-        if (flied[temp1][temp2] == -1)dfs(temp1, temp2, dp[temp1][temp2] - '0'), cnt++;
+        if (flied[temp1][temp2] == -1)DFS(temp1, temp2, dp[temp1][temp2] - '0'), cnt++;
         cout << answer[flied[temp1][temp2]] << endl;
     }
     return 0;

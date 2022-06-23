@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Work/CLionProjects/Luogu_answers/cpp/T/T246828.cpp" "CMakeFiles/Answersfor_luogu.dir/cpp/T/T246828.cpp.obj" "gcc" "CMakeFiles/Answersfor_luogu.dir/cpp/T/T246828.cpp.obj.d"
   "C:/Users/Work/CLionProjects/Luogu_answers/main.cpp" "CMakeFiles/Answersfor_luogu.dir/main.cpp.obj" "gcc" "CMakeFiles/Answersfor_luogu.dir/main.cpp.obj.d"
   )
 

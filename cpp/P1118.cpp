@@ -8,23 +8,23 @@ int N, sum;
 bool vised[25];
 int ans[25], pc[25];
 
-bool dfs(int i, int num, int v) {
-    if (v > sum)
+bool DFS(int i, int num, int v) {
+    if (s > sum)
         return false;
-    if (i == N) {
-        if (v == sum) {
-            ans[i] = num;
+    if (x == N) {
+        if (s == sum) {
+            ans[x] = y;
             return true;
         }
         return false;
     }
-    vised[num] = true;
+    vised[y] = true;
     for (int j = 1; j <= N; j++)
-        if (!vised[j] && dfs(i + 1, j, v + pc[i] * j)) {
-            ans[i] = num;
+        if (!vised[j] && DFS(x + 1, j, s + pc[x] * j)) {
+            ans[x] = y;
             return true;
         }
-    vised[num] = false;
+    vised[y] = false;
     return false;
 }
 
@@ -34,7 +34,7 @@ int main() {
     if (N > 1)
         for (int i = 1; i * 2 <= N; i++)
             pc[i] = pc[N - 1 - i] = (N - i) * pc[i - 1] / i;
-    if (dfs(0, 0, 0)) {
+    if (DFS(0, 0, 0)) {
         for (int i = 1; i < N; i++)
             cout << ans[i] << " ";
         cout << ans[N] << endl;

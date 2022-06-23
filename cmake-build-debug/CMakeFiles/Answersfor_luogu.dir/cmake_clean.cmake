@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "Answersfor_luogu.exe"
   "Answersfor_luogu.exe.manifest"
   "Answersfor_luogu.pdb"
+  "CMakeFiles/Answersfor_luogu.dir/cpp/T/T246828.cpp.obj"
+  "CMakeFiles/Answersfor_luogu.dir/cpp/T/T246828.cpp.obj.d"
   "CMakeFiles/Answersfor_luogu.dir/main.cpp.obj"
   "CMakeFiles/Answersfor_luogu.dir/main.cpp.obj.d"
   "libAnswersfor_luogu.dll.a"
