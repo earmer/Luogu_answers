@@ -1,6 +1,7 @@
 //
 // Created by Work on 2022/6/23.
 //
+#pragma GCC optimize(3, "Ofast", "inline")
 #include<stdio.h>
 #include<bits/stdc++.h>
 
