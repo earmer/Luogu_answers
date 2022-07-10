@@ -62,7 +62,9 @@ CMAKE_BINARY_DIR = C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/T227966.dir/all
+all: CMakeFiles/TT.dir/all
+all: CMakeFiles/T246804.dir/all
+all: CMakeFiles/T246862.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +72,88 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/T227966.dir/clean
+clean: CMakeFiles/TT.dir/clean
+clean: CMakeFiles/T246804.dir/clean
+clean: CMakeFiles/T246862.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/T227966.dir
+# Target rules for target CMakeFiles/TT.dir
 
 # All Build rule for target.
-CMakeFiles/T227966.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T227966.dir\build.make CMakeFiles/T227966.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T227966.dir\build.make CMakeFiles/T227966.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target T227966"
-.PHONY : CMakeFiles/T227966.dir/all
+CMakeFiles/TT.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TT.dir\build.make CMakeFiles/TT.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TT.dir\build.make CMakeFiles/TT.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target TT"
+.PHONY : CMakeFiles/TT.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/T227966.dir/rule: cmake_check_build_system
+CMakeFiles/TT.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/T227966.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TT.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/T227966.dir/rule
+.PHONY : CMakeFiles/TT.dir/rule
 
 # Convenience name for target.
-T227966: CMakeFiles/T227966.dir/rule
-.PHONY : T227966
+TT: CMakeFiles/TT.dir/rule
+.PHONY : TT
 
 # clean rule for target.
-CMakeFiles/T227966.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\T227966.dir\build.make CMakeFiles/T227966.dir/clean
-.PHONY : CMakeFiles/T227966.dir/clean
+CMakeFiles/TT.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TT.dir\build.make CMakeFiles/TT.dir/clean
+.PHONY : CMakeFiles/TT.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/T246804.dir
+
+# All Build rule for target.
+CMakeFiles/T246804.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T246804.dir\build.make CMakeFiles/T246804.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T246804.dir\build.make CMakeFiles/T246804.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target T246804"
+.PHONY : CMakeFiles/T246804.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/T246804.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/T246804.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/T246804.dir/rule
+
+# Convenience name for target.
+T246804: CMakeFiles/T246804.dir/rule
+.PHONY : T246804
+
+# clean rule for target.
+CMakeFiles/T246804.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T246804.dir\build.make CMakeFiles/T246804.dir/clean
+.PHONY : CMakeFiles/T246804.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/T246862.dir
+
+# All Build rule for target.
+CMakeFiles/T246862.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T246862.dir\build.make CMakeFiles/T246862.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T246862.dir\build.make CMakeFiles/T246862.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target T246862"
+.PHONY : CMakeFiles/T246862.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/T246862.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/T246862.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Work\CLionProjects\Luogu_answers\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/T246862.dir/rule
+
+# Convenience name for target.
+T246862: CMakeFiles/T246862.dir/rule
+.PHONY : T246862
+
+# clean rule for target.
+CMakeFiles/T246862.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T246862.dir\build.make CMakeFiles/T246862.dir/clean
+.PHONY : CMakeFiles/T246862.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

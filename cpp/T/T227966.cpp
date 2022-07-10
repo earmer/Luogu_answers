@@ -1,38 +1,30 @@
 //
 // Created by Work on 2022/6/23.
 //
-#pragma GCC optimize(3, "Ofast", "inline")
+
 #include<stdio.h>
 #include<bits/stdc++.h>
 
-long long n, b_min[6], d, minn = 9223372036854775807, temp, tmp[200005][6], tp;
+long long n, d, temp, tp;
 long long ans = -1e10;
+long long bt[1000005][6];
 using namespace std;
 
 int main() {
     cin >> n >> d;
-    for (int i = 1; i <= n; ++i) {
-        for (int j = 1; j <= d; ++j) {
-            cin >> tmp[i][j];
-            tp += tmp[i][j];
+    for (long long i = 1; i <= n; i++) {
+        for (long long j = 1; j <= d; j++) {
+            cin >> bt[i][j];
         }
-        if (tp < minn) {
-            minn = tp;
-            for (int j = 1; j <= d; ++j)
-                b_min[j] = tmp[i][j];
+        for (int k = 1; k < i; k++) {
+            //for all numbers
+            long long t = 0;
+            for (long long l = 1; l <= d; l++) {
+                //finding the number of elements in the array
+                t += abs(bt[k][l] - bt[i][l]);
+            }
+            ans = max(ans, t);
         }
-
-        temp = 0, tp = 0;
-    }
-    for (int i = 1; i <= n; ++i) {
-        for (int j = 1; j <= d; ++j) {
-//            cin >> tmp[j];
-//            if (i == 1) b_min[j] = tmp[j];
-            temp += abs(tmp[i][j] - b_min[j]);
-            tp += tmp[i][j];
-        }
-        if (ans < temp) ans = temp;
-        temp = 0, tp = 0;
     }
     cout << ans << endl;
     return 0;

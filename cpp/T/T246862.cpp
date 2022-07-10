@@ -5,51 +5,22 @@
 #include <cstring>
 
 using namespace std;
-int n, m, position[27];
-int dict[27][100005];
-int use[27][100005];
-int flag;
+int n, m, position[27], pin[27];
 string s[27][100005], tmp;
-//
-//bool cmp(string a, string b) {
-//    int l = min(a.length(), b.length());
-//    for(int i = 0; i < l; i++)
-//        if (a[l] > b[l])
-//            return false;
-//    return a.size() < b.size();
-//}
-
-int cmp(string a, string b) {
-    return a + b > b + a;
-}
-
-struct bindto {
-    int useed;
-    string s;
-};
-
-bindto b[27][100005];
+char c;
 
 int main() {
     cin >> n >> m;
     for (int i = 1; i <= n; i++) {
         cin >> tmp;
-        b[tmp[0] - 'a' + 1][++position[tmp[0] - 'a' + 1]].s = tmp;
+        s[tmp[0] - 'a' + 1][++position[tmp[0] - 'a' + 1]] = tmp;
     }
-//    cout << "1" << endl;
-    char c;
-    int now;
-    string s1;
-    while (m--) {
+    for (int i = 1; i <= 26; i++)
+        sort(s[i] + 1, s[i] + position[i] + 1);
+    for (int i = 1; i <= m; i++) {
         cin >> c;
-        now = b[c - 'a' - 1][1].useed;
-        s1 = b[c - 'a' - 1][1].s;
-        for (int i = 2; i <= position[i]; i++) {
-            if (b[c - 'a' - 1][i].useed != now)
-                break;
-            s1 = (b[c - 'a' - 1][i].s + s1 < s1 + b[c - 'a' - 1][i].s) ? s1 : b[c - 'a' - 1][i].s;
-        }
-        cout << s1 << endl;
+        cout << s[c - 'a' + 1][++pin[c - 'a' + 1]] << endl;
+        pin[c - 'a' + 1] %= position[c - 'a' + 1];
     }
     return 0;
 }

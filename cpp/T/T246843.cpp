@@ -36,7 +36,7 @@ int main() {
     input();
     long long ans = 0;
     for (int i = 1; i < N; i++) {
-        cout << matches[i].position << " " << matches[i].num << endl;
+//        cout << matches[i].position << " " << matches[i].num << endl;
     }
     for (int i = 1; i <= block; i++) {
         for (int j = 0; j < lenth; j++)
