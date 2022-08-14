@@ -4,33 +4,24 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-long long bigg[3] = {0, 0, 0}, smalll[3] = {1000001, 1000001, 1000001};
-
-//void popup(){
-//    long long i = 3;
-//    while(i != 0 && bigg[--i] > bigg[i - 1]) swap(bigg[i], bigg[i - 1]);
-//}
-//
-//void popdown(){
-//    long long i = 3;
-//    while(i != 0 && smalll[--i] < smalll[i - 1]) swap(smalll[i], smalll[i - 1]);
-//}
+int num[100005], Sum_Array[100005];
+int dp[10005][1550];
 
 int main() {
-    long long n;
-    cin >> n;
-    long long num[n];
-    long long sum = 0;
+    long long n, m, k;
+    cin >> n >> m >> k;
 
-    for (long long i = 0; i < n; i++) {
+    for (long long i = 1; i <= n; i++) {
         cin >> num[i];
-        sum += num[i];
-        bigg[2] = smalll[2] = num[i];
-        if (bigg[2] > bigg[1]) swap(bigg[2], bigg[1]);
-        if (bigg[1] > bigg[0]) swap(bigg[1], bigg[0]);
-        if (smalll[2] < smalll[1]) swap(smalll[2], smalll[1]);
-        if (smalll[1] < smalll[0]) swap(smalll[1], smalll[0]);
+        Sum_Array[i] = Sum_Array[i - 1] + num[i];
     }
-    cout << (sum - bigg[0] - bigg[1] - smalll[1] - smalll[0]) / (n - 4) << endl;
+
+    for (int i = k; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (dp[i - 1][j] > dp[i - k][j - 1] + Sum_Array[i] - Sum_Array[i - k]) dp[i][j] = dp[i - 1][j];
+            else dp[i][j] = dp[i - k][j - 1] + Sum_Array[i] - Sum_Array[i - k];
+        }
+    }
+    cout << dp[n][m];
     return 0;
 }
