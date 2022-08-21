@@ -2,7 +2,7 @@
 
 ---
 
-<div style="text-align: center;"><a href="https://github.com/Limingrui0/Luogu_answers/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Limingrui0/Luogu_answers"></a> <a href="https://github.com/Limingrui0/Luogu_answers/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Limingrui0/Luogu_answers"></a> <a href="https://github.com/Limingrui0/Luogu_answers/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Limingrui0/Luogu_answers"></a> </div>
+<div style="text-align: center;"> <a href="https://github.com/Limingrui0/Luogu_answers/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Limingrui0/Luogu_answers"></a> <a href="https://github.com/Limingrui0/Luogu_answers/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Limingrui0/Luogu_answers"></a> <a href="https://github.com/Limingrui0/Luogu_answers/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Limingrui0/Luogu_answers"></a> </div>
 
 ---
 
@@ -30,3 +30,5 @@
 但后期发现这是一个可以造福广大 OIer 与算法练习的地方，且我的做法与很多人不同，故将其 Public 与添加 ReadMe。
 
 当我在写这些的时候，发现版权声明居然貌似比正文长。
+
+BY: limingrui0
