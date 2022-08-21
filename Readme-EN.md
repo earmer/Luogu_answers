@@ -1,3 +1,11 @@
+<div style="text-align: center;"><img style="max-width:20%;overflow:hidden;" src="./sources/LOGO.svg" alt=""></div>
+
+---
+
+<div style="text-align: center;"><a href="https://github.com/Limingrui0/Luogu_answers/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Limingrui0/Luogu_answers"></a> <a href="https://github.com/Limingrui0/Luogu_answers/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Limingrui0/Luogu_answers"></a> <a href="https://github.com/Limingrui0/Luogu_answers/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Limingrui0/Luogu_answers"></a> </div>
+
+---
+
 > 声明：本自述文件使用 CC BY-NC-SA 4.0
 > 协议。您可以在 [此页面](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-Hans) 找到协议的详细描述文件。
 
@@ -12,9 +20,7 @@
 
 ---
 
-[中文](./Readme.md)
-
-<div style="text-align: center;"><img style="max-width:20%;overflow:hidden;" src="./sources/LOGO.svg" alt=""></div>
+English | [中文](./Readme.md)
 
 # This repository is a repository of topics from [Luogu](https://www.luogu.com.cn) with a few private question solutions.
 
