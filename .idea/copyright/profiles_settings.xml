@@ -1,0 +1,11 @@
+<component name="CopyrightManager">
+  <settings default="MPL">
+    <module2copyright>
+      <element module="Project Source Files" copyright="MPL" />
+    </module2copyright>
+    <LanguageOptions name="ObjectiveC">
+      <option name="fileTypeOverride" value="3" />
+      <option name="block" value="false" />
+    </LanguageOptions>
+  </settings>
+</component>

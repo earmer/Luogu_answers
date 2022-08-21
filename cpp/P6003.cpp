@@ -1,3 +1,8 @@
+// Copyright (c) 2022. limingrui0.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 //
 // Created by Work on 2022/6/18.
 //
@@ -18,8 +23,8 @@ bool judge_left_right() {
         if (ready > time_left) ready = time_left;
         b_to_pay -= ready * Y;
         time_left -= ready;
-        if(b_to_pay <= 0) return true;
-        if(time_left == 0) return false;
+        if (b_to_pay <= 0) return true;
+        if (time_left == 0) return false;
     }
 }
 

@@ -1,3 +1,8 @@
+// Copyright (c) 2022. limingrui0.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -43,6 +48,7 @@ void BFS(int x, int y) {
     }
     memset(graph, false, sizeof(graph));
 }
+
 /*
  6 3
 0000000000
@@ -52,8 +58,7 @@ void BFS(int x, int y) {
 2211122220
 1111111223
  */
-int main()
-{
+int main() {
     cin >> height;
     cin >> K;
     for (int i = 0; i < height; i++) {

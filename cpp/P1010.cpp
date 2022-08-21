@@ -1,3 +1,8 @@
+// Copyright (c) 2022. limingrui0.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 //
 // Created by 101 on 2022-04-26.
 //
@@ -29,12 +34,12 @@ void printout(int n) {
         else {
             cout << "2";
             int mi = b_find(n, 0);
-            if(mi != 1) {
+            if (mi != 1) {
 //        int calculate = b - mi;
                 cout << "(";
                 printout(mi);
                 cout << ")";
-                }
+            }
             if (n - answer[b_find(n, 0)]) {
                 cout << "+";
 //                cout<< "  #debug/ " << b_find(b, 0) << " /debug#  ";
@@ -49,6 +54,6 @@ int main() {
     int n;
     cin >> n;
     printout(n);
-    cout<<endl;
+    cout << endl;
     return 0;
 }
