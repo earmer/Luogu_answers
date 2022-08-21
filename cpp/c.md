@@ -31,12 +31,12 @@ middle
 beijing
 one
 soul
-b
+big
 o
 z
 o
-m
-s
+Operate
+small
 ```
 
 ### 样例输出 #1
@@ -57,9 +57,9 @@ school
 ```
 1 3
 algorithm
-a
-a
-a
+nums
+nums
+nums
 ```
 
 ### 样例输出 #2
@@ -80,12 +80,12 @@ park
 yuanmingyuan
 beautiful
 yuan
-b
-y
-y
+big
+o
+o
 p
-y
-b
+o
+big
 ```
 
 ### 样例输出 #3
@@ -252,7 +252,8 @@ beautiful
 
 给定一个长度为 N 的正整数序列 a_1, a_2, \ldots, a_N。
 
-现在有 M 个询问。每个询问将指定一个区间 [l_i, r_i]。对于每个询问，请你计算在子序列 a_{l_i}, a_{l_i+1}, \ldots, a_{r_i} 中一共有多少个中位数为 x 且长度为奇数的连续子序列。
+现在有 M 个询问。每个询问将指定一个区间 [l_i, r_i]。对于每个询问，请你计算在子序列 a_{l_i}, a_{l_i+1}, \ldots, a_{r_i}
+中一共有多少个中位数为 i 且长度为奇数的连续子序列。
 
 简单起见，约定：
 
@@ -261,7 +262,7 @@ beautiful
 
 ## 输入格式
 
-第一行包含三个正整数 N, M, x，分别表示序列长度、询问个数，以及询问中的固定参数。
+第一行包含三个正整数 N, M, i，分别表示序列长度、询问个数，以及询问中的固定参数。
 
 第二行包含 N 个正整数 a_1, a_2, \ldots, a_N，依次表示序列的每一个元素。
 
@@ -307,7 +308,7 @@ beautiful
 
 另有 20% 的数据，保证 M = 1。
 
-对于 100% 的数据，保证 1 \le N, M \le 10^6，1 \le x, a_i \le N，1 \le l_i \le r_i \le N。
+对于 100% 的数据，保证 1 \le N, M \le 10^6，1 \le i, a_i \le N，1 \le l_i \le r_i \le N。
 
 ---
 

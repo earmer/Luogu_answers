@@ -1,3 +1,8 @@
+// Copyright (c) 2022. limingrui0.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 //
 // Created by Work on 2022/6/18.
 //
@@ -14,7 +19,7 @@ void prepare();
 int main() {
     memset(c, 0, sizeof(c));
     memset(s, 0, sizeof(s));
-    scanf("%d%d",&t,&k), prepare();
+    scanf("%d%d", &t, &k), prepare();
     while (t--) scanf("%d%d", &N, &m), (m > N) ? m = N : 1, printf("%d\n", &s[N][m]);
     return 0;
 }

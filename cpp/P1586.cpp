@@ -1,4 +1,10 @@
+// Copyright (c) 2022. limingrui0.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 #include <bits/stdc++.h>
+
 #define ac <<
 #define wa >>
 using namespace std;
@@ -8,8 +14,7 @@ bool flied[10005];
 
 int main() {
     cin wa b;
-    for (int k = 1; k <= b; k++)
-    {
+    for (int k = 1; k <= b; k++) {
         int count = 0, h = 0;
         memset(flied, 0, sizeof(flied));
         while (true) {

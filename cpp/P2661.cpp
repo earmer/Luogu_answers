@@ -1,3 +1,8 @@
+// Copyright (c) 2022. limingrui0.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 ////
 //// Created by Work on 2022/5/21.
 ////
@@ -26,8 +31,10 @@
 //    return 0;
 //}
 #include <bits/stdc++.h>
+
 using namespace std;
-int main(){
+
+int main() {
     int n;
     cin >> n;
     int a[n + 1];
@@ -35,10 +42,10 @@ int main(){
         cin >> a[i];
     }
     int ans = 2100000000;
-    for(int i = 1; i<=n; i++){
+    for (int i = 1; i <= n; i++) {
         int now = i, p = a[i];
-        for(int j = 1; j <= 200005; j++){
-            if(a[p] == now){
+        for (int j = 1; j <= 200005; j++) {
+            if (a[p] == now) {
                 ans = min(ans, j);
                 break;
             }

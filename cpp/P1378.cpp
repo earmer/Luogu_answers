@@ -1,3 +1,8 @@
+// Copyright (c) 2022. limingrui0.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 //
 // Created by Work on 2022/6/4.
 //
@@ -39,7 +44,8 @@ double ds(int b_x, int b_y, int xx1, int yy1) {
 double B_min(int k) {
     for (int i = 1; i <= b; i++)
         if (i != k && to_x[i] == 1 and r[i] > ds(pos[i][1], pos[i][2], pos[k][1], pos[k][2])) return 0;
-    double dt, ans = min(min(abs(pos[k][1] - temp1), abs(pos[k][1] - x1)), min(abs(pos[k][2] - temp2), abs(pos[k][2] - yy1)));
+    double dt, ans = min(min(abs(pos[k][1] - temp1), abs(pos[k][1] - x1)),
+                         min(abs(pos[k][2] - temp2), abs(pos[k][2] - yy1)));
     for (int i = 1; i <= b; i++)
         if (to_x[i] == 1 && i != k) {
             dt = ds(pos[i][1], pos[i][2], pos[k][1], pos[k][2]) - r[i], ans = min(ans, dt);
