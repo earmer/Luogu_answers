@@ -320,7 +320,7 @@ beautiful
 
 例如下图中，结点 1 到结点 5 的最短距离为 44，对应的路线为 1->3->5。
 
-![eAKnHg.png](https://s2.ax1x.com/2019/07/23/eAKnHg.png)
+![eAKnHg.png](https://t2.ax1x.com/2019/07/23/eAKnHg.png)
 
 ```cpp
 1 ---(34)--- 2 ---(12)--- 4 ---(30)--- 5
@@ -434,7 +434,7 @@ beautiful
 
 样例如图所示
 
-[![jSdgDs.png](https://s1.ax1x.com/2022/06/21/jSdgDs.png)](https://imgtu.com/i/jSdgDs)
+[![jSdgDs.png](https://t1.ax1x.com/2022/06/21/jSdgDs.png)](https://imgtu.com/i/jSdgDs)
 
 对于全部数据，保证 1 \le N \le 10^5，1 \le w_i \le 10^9。
 
