@@ -7,10 +7,13 @@
 // 程序名称：毕达哥拉斯树（Pythagoras tree）
 // 编译环境：Mictosoft Visual Studio 2010, EasyX_20200315(beta)
 //
-#include ...
+#include <bits/stdc++.h>
+#include <vector>
+
+vector <vector<int>> q;
 
 int main() {
     //设置当前文件夹下的所有文件名在a中，index写入以elasticsearch为准
-    map <string, vector<string>> a;
+
 
 }
