@@ -39,6 +39,7 @@ int main() {
 //                yu = x - 1;
             }
         }
+        yu %= x;
     }
     cout << endl;;
     return 0;
