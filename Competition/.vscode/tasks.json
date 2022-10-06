@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++.exe 生成活动文件",
+			"command": "G:/VSIDE/VisualStudio/VC/Tools/Llvm/bin/clang++.exe",
+			"args": [
+				"-fcolor-diagnostics",
+				"-fansi-escape-codes",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "G:/VSIDE/VisualStudio/VC/Tools/Llvm/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "编译器: G:/VSIDE/VisualStudio/VC/Tools/Llvm/bin/clang++.exe"
+		}
+	]
+}
